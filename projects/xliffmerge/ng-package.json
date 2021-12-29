@@ -4,7 +4,6 @@
   "lib": {
     "entryFile": "src/public_api.ts"
   },
-
   "allowedNonPeerDependencies": [
     "@ngx-i18nsupport/ngx-i18nsupport-lib",
     "chalk",

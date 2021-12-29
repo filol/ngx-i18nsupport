@@ -1,10 +1,11 @@
 {
   "name": "@ngx-i18nsupport/ngx-i18nsupport",
-  "version": "1.1.6",
+  "type": "module",
+  "version": "13.0.0",
   "description": "Some tooling to be used with the Angular i18n workflow",
   "private": false,
   "bin": {
-    "xliffmerge": "xliffmerge/xliffmerge"
+    "xliffmerge": "xliffmerge/xliffmerge.js"
   },
   "engines": {
     "node": ">=10.0"
@@ -12,7 +13,7 @@
   "scripts": {
     "build": "ng build xliffmerge && npm run build:apiAndLib && npm run build:copy",
     "build:apiAndLib": "tsc -p src/tsconfig.json",
-    "build:copy": "cpx ./README.md ../../dist/ngx-i18nsupport && cpx ./src/xliffmerge/xliffmerge ../../dist/ngx-i18nsupport/xliffmerge && cpx ./src/xliffmerge/configuration-schema.json ../../dist/ngx-i18nsupport/xliffmerge/configuration-schema.json",
+    "build:copy": "cpx ./README.md ../../dist/ngx-i18nsupport && cpx ./src/xliffmerge/xliffmerge.js ../../dist/ngx-i18nsupport/xliffmerge && cpx ./src/xliffmerge/configuration-schema.json ../../dist/ngx-i18nsupport/xliffmerge/configuration-schema.json",
     "xliffmerge": "npm link && xliffmerge",
     "pretest": "npm run build",
     "test": "jasmine ../../dist/ngx-i18nsupport/**/*spec.js",
@@ -43,7 +44,7 @@
     "@ngx-i18nsupport/ngx-i18nsupport-lib": "^1.12.1",
     "chalk": "^2.4.1",
     "he": "^1.1.1",
-    "request": "^2.85.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "peerDependencies": {},

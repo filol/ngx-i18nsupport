@@ -5,7 +5,7 @@
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
-    "module": "es2015",
+    "module": "es2020",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -15,7 +15,8 @@
     ],
     "lib": [
       "es2017",
-      "dom"
+      "dom",
+      "ES2020"
     ],
     "paths": {
       "@ngx-i18nsupport/ngx-i18nsupport": [

@@ -53,7 +53,7 @@ const MAX_SEGMENTS = 128;
 
 export class AutoTranslateService {
 
-    private _request: request.RequestAPI<request.Request, request.CoreOptions, request.RequiredUriUrl>;
+    private _request: any;
     _rootUrl: string;
     _apiKey: string;
 

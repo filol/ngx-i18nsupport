@@ -12,7 +12,7 @@ describe('ngx-i18nsupport-lib API test spec', () => {
 
     const SRCDIR = 'test/testdata/i18n/';
 
-    const ENCODING = 'utf-8';
+    const ENCODING: BufferEncoding = 'utf-8';
 
     /**
      * Helper function to read Xliff from File
@@ -116,7 +116,7 @@ describe('ngx-i18nsupport-lib API test spec', () => {
 
         it ('should detect files with wrong format', () => {
            try {
-               TranslationMessagesFileFactory.fromUnknownFormatFileContent('schrott', 'dummyfile', 'UTF-X');
+               TranslationMessagesFileFactory.fromUnknownFormatFileContent('schrott', 'dummyfile', 'UTF-X' as BufferEncoding);
            }  catch (error) {
                expect(error.toString()).toBe('Error: could not identify file format, it is neiter XLIFF (1.2 or 2.0) nor XMB/XTB');
                return;
@@ -126,7 +126,7 @@ describe('ngx-i18nsupport-lib API test spec', () => {
 
         it ('should report wrong format as error', () => {
             try {
-                TranslationMessagesFileFactory.fromFileContent('schrott', 'schrott', 'dummyfile', 'UTF-X');
+                TranslationMessagesFileFactory.fromFileContent('schrott', 'schrott', 'dummyfile', 'UTF-X' as BufferEncoding);
             }  catch (error) {
                 expect(error.toString()).toBe('Error: oops, unsupported format "schrott"');
                 return;

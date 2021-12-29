@@ -1,5 +1,5 @@
-import * as Tokenizr from 'tokenizr';
 import {isNullOrUndefined} from 'util';
+import Tokenizr from 'tokenizr';
 
 /**
  * Created by martin on 14.05.2017.

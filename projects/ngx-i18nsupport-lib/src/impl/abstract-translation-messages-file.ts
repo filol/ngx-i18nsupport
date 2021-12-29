@@ -278,7 +278,7 @@ export abstract class AbstractTranslationMessagesFile implements ITranslationMes
     /**
      * The encoding if the xml content (UTF-8, ISO-8859-1, ...)
      */
-    public encoding(): string {
+    public encoding(): BufferEncoding {
         return this._encoding;
     }
 

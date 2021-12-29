@@ -1,9 +1,9 @@
-import * as Tokenizr from 'tokenizr';
-
 /**
  * Created by martin on 04.06.2017.
  * A tokenizer for ICU messages.
  */
+import Tokenizr from 'tokenizr';
+
 
 // Tokens
 export const TEXT = 'TEXT';

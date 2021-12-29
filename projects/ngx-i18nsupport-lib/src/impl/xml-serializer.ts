@@ -124,7 +124,7 @@ export class XmlSerializer {
                 // add namespace for current node
                 if (this.needNamespaceDefine(elementNode, visibleNamespaces)) {
                     const prefix = elementNode.prefix || '';
-                    const uri = node.namespaceURI;
+                    const uri = node.lookupNamespaceURI('');
                     const ns = prefix ? ' xmlns:' + prefix : ' xmlns';
                     buf.push(ns, '="', uri, '"');
                     visibleNamespaces.push({prefix: prefix, namespace: uri});
