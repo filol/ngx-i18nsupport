@@ -1,13 +1,13 @@
-import {Injectable} from '@angular/core';
-import {IFileDescription} from '../file-accessors/common/i-file-description';
-import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
-import {FileAccessorType} from '../file-accessors/common/file-accessor-type';
-import {DownloadUploadFileDescription} from '../file-accessors/download-upload/download-upload-file-description';
-import {DownloadUploadConfiguration} from '../file-accessors/download-upload/download-upload-configuration';
-import {GithubConfiguration} from '../file-accessors/github/github-configuration';
-import {GithubFileDescription} from '../file-accessors/github/github-file-description';
-import {IFile} from '../file-accessors/common/i-file';
-import {GenericFile} from '../file-accessors/common/generic-file';
+import {Injectable} from '@angular/core.js';
+import {IFileDescription} from '../file-accessors/common/i-file-description.js';
+import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration.js';
+import {FileAccessorType} from '../file-accessors/common/file-accessor-type.js';
+import {DownloadUploadFileDescription} from '../file-accessors/download-upload/download-upload-file-description.js';
+import {DownloadUploadConfiguration} from '../file-accessors/download-upload/download-upload-configuration.js';
+import {GithubConfiguration} from '../file-accessors/github/github-configuration.js';
+import {GithubFileDescription} from '../file-accessors/github/github-file-description.js';
+import {IFile} from '../file-accessors/common/i-file.js';
+import {GenericFile} from '../file-accessors/common/generic-file.js';
 import {GithubFile} from '../file-accessors/github/github-file';
 
 interface SerializedFormOfFile {
@@ -16,7 +16,7 @@ interface SerializedFormOfFile {
 
 interface SerializedFormOfDescription {
   accessorType: FileAccessorType;
-  type: 'file'|'dir';
+  type: 'file'|'dir.js';
 }
 
 interface SerializedFormOfConfiguration {

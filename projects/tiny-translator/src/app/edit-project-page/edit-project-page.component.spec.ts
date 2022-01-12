@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { EditProjectPageComponent } from './edit-project-page.component';
 import {ProjectEditorComponent} from '../project-editor/project-editor.component';

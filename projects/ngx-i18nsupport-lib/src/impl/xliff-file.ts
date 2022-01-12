@@ -1,11 +1,11 @@
 import {format} from 'util';
-import {ITranslationMessagesFile} from '../api/i-translation-messages-file';
-import {ITransUnit} from '../api/i-trans-unit';
-import {FORMAT_XLIFF12, FILETYPE_XLIFF12} from '../api/constants';
-import {DOMUtilities} from './dom-utilities';
-import {XliffTransUnit} from './xliff-trans-unit';
-import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file';
-import {AbstractTransUnit} from './abstract-trans-unit';
+import {ITranslationMessagesFile} from '../api/i-translation-messages-file.js';
+import {ITransUnit} from '../api/i-trans-unit.js';
+import {FORMAT_XLIFF12, FILETYPE_XLIFF12} from '../api/constants.js';
+import {DOMUtilities} from './dom-utilities.js';
+import {XliffTransUnit} from './xliff-trans-unit.js';
+import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file.js';
+import {AbstractTransUnit} from './abstract-trans-unit.js';
 /**
  * Created by martin on 23.02.2017.
  * Ab xliff file read from a source file.

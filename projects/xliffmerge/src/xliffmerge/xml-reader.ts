@@ -1,4 +1,4 @@
-import {FileUtil} from '../common/file-util';
+import {FileUtil} from '../common/file-util.js';
 /**
  * Created by martin on 10.03.2017.
  * Helper class to read XMl with a correct encoding.

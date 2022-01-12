@@ -2,11 +2,11 @@
  * Functions shared between the schematics.
  **/
 
-import {OptionsAfterSetup} from './options-after-setup';
-import {SchematicContext, Tree} from '@angular-devkit/schematics';
-import {addPackageJsonDependency, NodeDependency, NodeDependencyType} from '../../schematics-core';
-import {xliffmergePackage, xliffmergeVersion} from './constants';
-import {NodePackageInstallTask} from '@angular-devkit/schematics/tasks';
+import {OptionsAfterSetup} from './options-after-setup.js';
+import {SchematicContext, Tree} from '@angular-devkit/schematics.js';
+import {addPackageJsonDependency, NodeDependency, NodeDependencyType} from '../../schematics-core.js';
+import {xliffmergePackage, xliffmergeVersion} from './constants.js';
+import {NodePackageInstallTask} from '@angular-devkit/schematics/tasks.js';
 
 /**
  * Check syntax of language code.

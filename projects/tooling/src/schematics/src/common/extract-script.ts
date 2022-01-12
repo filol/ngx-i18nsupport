@@ -2,8 +2,8 @@
  * This class contains all informations about the extract i18n script used in a package.json file.
  * It can create such a script and can analyze an existing script.
  */
-import {extractScriptName} from './constants';
-import {OptionsAfterSetup} from './options-after-setup';
+import {extractScriptName} from './constants.js';
+import {OptionsAfterSetup} from './options-after-setup.js';
 
 export class ExtractScript {
 

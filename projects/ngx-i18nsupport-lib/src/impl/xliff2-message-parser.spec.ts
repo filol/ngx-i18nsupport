@@ -1,5 +1,5 @@
-import {Xliff2MessageParser} from './xliff2-message-parser';
-import {ParsedMessage} from './parsed-message';
+import {Xliff2MessageParser} from './xliff2-message-parser.js';
+import {ParsedMessage} from './parsed-message.js';
 /**
  * Created by martin on 14.05.2017.
  * Testcases for parsing normalized messages to XLIFF 2.0 and vive versa.

@@ -1,17 +1,17 @@
-import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part';
-import {ParsedMessagePartText} from './parsed-message-part-text';
-import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder';
-import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag';
-import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag';
-import {INormalizedMessage, ValidationErrors} from '../api/i-normalized-message';
-import {DOMUtilities} from './dom-utilities';
+import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part.js';
+import {ParsedMessagePartText} from './parsed-message-part-text.js';
+import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder.js';
+import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag.js';
+import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag.js';
+import {INormalizedMessage, ValidationErrors} from '../api/i-normalized-message.js';
+import {DOMUtilities} from './dom-utilities.js';
 import {IMessageParser} from './i-message-parser';
 import {format, isNullOrUndefined} from 'util';
-import {IICUMessage, IICUMessageTranslation} from '../api/i-icu-message';
-import {ParsedMessagePartICUMessage} from './parsed-message-part-icu-message';
-import {ParsedMessagePartICUMessageRef} from './parsed-message-part-icu-message-ref';
-import {ICUMessage} from './icu-message';
-import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag';
+import {IICUMessage, IICUMessageTranslation} from '../api/i-icu-message.js';
+import {ParsedMessagePartICUMessage} from './parsed-message-part-icu-message.js';
+import {ParsedMessagePartICUMessageRef} from './parsed-message-part-icu-message-ref.js';
+import {ICUMessage} from './icu-message.js';
+import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag.js';
 /**
  * Created by martin on 05.05.2017.
  * A message text read from a translation file.

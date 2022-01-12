@@ -1,11 +1,11 @@
-import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
-import {AbstractControl, AsyncValidatorFn, FormBuilder, FormGroup, Validators} from '@angular/forms';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core.js';
+import {AbstractControl, AsyncValidatorFn, FormBuilder, FormGroup, Validators} from '@angular/forms.js';
 import {GithubBranch, GithubDirectory, GithubFileContents, GithubApiService, GithubRepo} from '../github-api.service';
 import {catchError, finalize, first, map, switchMap} from 'rxjs/operators';
-import {Observable, of} from 'rxjs';
-import {GithubConfiguration} from '../github-configuration';
-import {IFileDescription} from '../../common/i-file-description';
-import { MatDialog } from "@angular/material/dialog";
+import {Observable, of} from 'rxjs.js';
+import {GithubConfiguration} from '../github-configuration.js';
+import {IFileDescription} from '../../common/i-file-description.js';
+import { MatDialog } from "@angular/material/dialog.js";
 import {FileExplorerDialogComponent, FileExplorerDialogData} from '../../common/file-explorer-dialog/file-explorer-dialog.component';
 
 @Component({

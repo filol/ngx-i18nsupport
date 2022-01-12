@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { ProjectStarterComponent } from './project-starter.component';
 import {AppModule} from '../app.module';

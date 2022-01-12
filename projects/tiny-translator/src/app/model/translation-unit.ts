@@ -1,9 +1,9 @@
-import {ITransUnit, INormalizedMessage, STATE_NEW, IICUMessageTranslation} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {TranslationFile} from './translation-file';
+import {ITransUnit, INormalizedMessage, STATE_NEW, IICUMessageTranslation} from '@ngx-i18nsupport/ngx-i18nsupport-lib.js';
+import {TranslationFile} from './translation-file.js';
 import {NormalizedMessage} from './normalized-message';
-import {format} from 'util';
-import {isNullOrUndefined} from '../common/util';
-import {AutoTranslateResult} from './auto-translate-result';
+import {format} from 'util.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {AutoTranslateResult} from './auto-translate-result.js';
 
 /**
  * A wrapper around ITransUnit.

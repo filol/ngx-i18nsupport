@@ -1,5 +1,5 @@
-import {XmbMessageParser} from './xmb-message-parser';
-import {ParsedMessage} from './parsed-message';
+import {XmbMessageParser} from './xmb-message-parser.js';
+import {ParsedMessage} from './parsed-message.js';
 /**
  * Created by martin on 17.05.2017.
  * Testcases for parsing normalized messages to XMB format and vive versa.

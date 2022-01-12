@@ -1,7 +1,7 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { FilterPageComponent } from './filter-page.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 import {AppModule} from '../app.module';
 
 describe('FilterPageComponent', () => {

@@ -1,10 +1,10 @@
-import {ITranslationMessagesFileFactory} from '../api/i-translation-messages-file-factory';
-import {ITranslationMessagesFile} from '../api/i-translation-messages-file';
-import {ITransUnit} from '../api/i-trans-unit';
+import {ITranslationMessagesFileFactory} from '../api/i-translation-messages-file-factory.js';
+import {ITranslationMessagesFile} from '../api/i-translation-messages-file.js';
+import {ITransUnit} from '../api/i-trans-unit.js';
 import {FORMAT_XMB, FILETYPE_XMB, FORMAT_XTB} from '../api/constants';
 import {format} from 'util';
-import {XmbTransUnit} from './xmb-trans-unit';
-import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file';
+import {XmbTransUnit} from './xmb-trans-unit.js';
+import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file.js';
 
 /**
  * Created by martin on 10.03.2017.

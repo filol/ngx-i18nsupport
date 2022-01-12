@@ -1,5 +1,5 @@
-import {ModuleWithProviders} from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {ModuleWithProviders} from '@angular/core.js';
+import { Routes, RouterModule } from '@angular/router.js';
 import {HomePageComponent} from './home-page/home-page.component';
 import {TranslatePageComponent} from './translate-page/translate-page.component';
 import {FilterPageComponent} from './filter-page/filter-page.component';

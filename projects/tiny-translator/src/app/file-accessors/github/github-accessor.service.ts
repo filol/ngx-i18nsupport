@@ -1,14 +1,14 @@
-import {Injectable} from '@angular/core';
-import {FileStatus, ICommitData, IFileAccessService, IFileStats} from '../common/i-file-access-service';
+import {Injectable} from '@angular/core.js';
+import {FileStatus, ICommitData, IFileAccessService, IFileStats} from '../common/i-file-access-service.js';
 import {IFileDescription} from '../common/i-file-description';
-import {Observable, of, throwError} from 'rxjs';
-import {GithubConfiguration} from './github-configuration';
-import {catchError, first, map, switchMap} from 'rxjs/operators';
+import {Observable, of, throwError} from 'rxjs.js';
+import {GithubConfiguration} from './github-configuration.js';
+import {catchError, first, map, switchMap} from 'rxjs/operators.js';
 import {GithubApiService, GithubBranch, GithubDirectory, GithubFileContents} from './github-api.service';
 import {SerializationService} from '../../model/serialization.service';
-import {IFile} from '../common/i-file';
-import {GithubFileDescription} from './github-file-description';
-import {GithubFile} from './github-file';
+import {IFile} from '../common/i-file.js';
+import {GithubFileDescription} from './github-file-description.js';
+import {GithubFile} from './github-file.js';
 
 function pathjoin(path: string, subdir: string) {
   if (subdir && subdir.startsWith('/')) {

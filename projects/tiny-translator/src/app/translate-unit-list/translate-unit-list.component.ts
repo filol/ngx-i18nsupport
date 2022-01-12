@@ -1,16 +1,16 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationUnit} from '../model/translation-unit';
-import { MatRadioChange } from "@angular/material/radio";
-import {TranslationFileView} from '../model/translation-file-view';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationUnit} from '../model/translation-unit.js';
+import { MatRadioChange } from "@angular/material/radio.js";
+import {TranslationFileView} from '../model/translation-file-view.js';
 import {WorkflowType} from '../model/translation-project';
-import {Subject, Subscription} from 'rxjs';
+import {Subject, Subscription} from 'rxjs.js';
 import {
   FILTER_ALL, FILTER_AUTOTRANSLATED, FILTER_AUTOTRANSLATED_FAILED, FILTER_AUTOTRANSLATED_IGNORED, FILTER_NEEDS_REVIEW,
   FILTER_SUBSTRING,
   FILTER_UNTRANSLATED,
   TranslationUnitFilterService
 } from '../model/filters/translation-unit-filter.service';
-import {debounceTime} from 'rxjs/operators';
+import {debounceTime} from 'rxjs/operators.js';
 
 /**
  * Component that shows a list of trans units.

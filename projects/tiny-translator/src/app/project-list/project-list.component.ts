@@ -1,5 +1,5 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationProject} from '../model/translation-project';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationProject} from '../model/translation-project.js';
 
 @Component({
   selector: 'app-project-list',

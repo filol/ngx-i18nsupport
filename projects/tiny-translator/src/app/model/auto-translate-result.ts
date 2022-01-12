@@ -1,4 +1,4 @@
-import {TranslationUnit} from './translation-unit';
+import {TranslationUnit} from './translation-unit.js';
 /**
  * Created by martin on 29.06.2017.
  */

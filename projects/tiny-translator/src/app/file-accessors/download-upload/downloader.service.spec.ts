@@ -1,4 +1,4 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing.js';
 
 import { DownloaderService } from './downloader.service';
 

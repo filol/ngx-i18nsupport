@@ -5,9 +5,9 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { JsonParseMode, parseJson } from '@angular-devkit/core';
-import { Rule, SchematicContext, SchematicsException, Tree } from '@angular-devkit/schematics';
-import { ProjectType, WorkspaceProject, WorkspaceSchema } from './workspace-models';
+import { JsonParseMode, parseJson } from '@angular-devkit/core.js';
+import { Rule, SchematicContext, SchematicsException, Tree } from '@angular-devkit/schematics.js';
+import { ProjectType, WorkspaceProject, WorkspaceSchema } from './workspace-models.js';
 
 // The interfaces below are generated from the Angular CLI configuration schema
 // https://github.com/angular/angular-cli/blob/master/packages/@angular/cli/lib/config/schema.json

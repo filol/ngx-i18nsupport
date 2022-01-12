@@ -3,9 +3,9 @@ import {
     STATE_NEW, STATE_TRANSLATED, STATE_FINAL, INote
 } from '../api/index';
 import * as fs from 'fs';
-import {AbstractTransUnit} from './abstract-trans-unit';
+import {AbstractTransUnit} from './abstract-trans-unit.js';
 import {DOMUtilities} from './dom-utilities';
-import {DOMParser} from 'xmldom';
+import {DOMParser} from 'xmldom.js';
 
 /**
  * Created by martin on 28.04.2017.

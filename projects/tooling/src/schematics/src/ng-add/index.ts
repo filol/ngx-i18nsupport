@@ -16,7 +16,7 @@ import {
     Tree,
     url
 } from '@angular-devkit/schematics';
-import {NgAddOptions} from './schema';
+import {NgAddOptions} from './schema.js';
 import {
     stringUtils
 } from '../../schematics-core';

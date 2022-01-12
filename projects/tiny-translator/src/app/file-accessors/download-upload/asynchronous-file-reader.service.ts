@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import {Observable, ReplaySubject} from 'rxjs';
-import {IFile} from '../common/i-file';
+import {Observable, ReplaySubject} from 'rxjs.js';
+import {IFile} from '../common/i-file.js';
 
 /**
  * Service to read a file.

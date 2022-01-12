@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { FilterStatusComponent } from './filter-status.component';
 import {AppModule} from '../app.module';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 
 describe('FilterStatusComponent', () => {
   let component: FilterStatusComponent;

@@ -1,16 +1,16 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import {Observable, of, Subject} from 'rxjs';
-import {IFileDescription} from '../i-file-description';
-import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog";
+import {Observable, of, Subject} from 'rxjs.js';
+import {IFileDescription} from '../i-file-description.js';
+import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog.js";
 import {FileAccessServiceFactoryService} from '../file-access-service-factory.service';
-import {catchError} from 'rxjs/operators';
+import {catchError} from 'rxjs/operators.js';
 import {IFileAccessConfiguration} from '../i-file-access-configuration';
 
 export interface FileExplorerDialogData {
   configurations?: IFileAccessConfiguration[];
   configuration?: IFileAccessConfiguration;
   file?: IFileDescription;
-  selectableFileType?: 'file'|'dir';
+  selectableFileType?: 'file'|'dir.js';
 }
 
 /**

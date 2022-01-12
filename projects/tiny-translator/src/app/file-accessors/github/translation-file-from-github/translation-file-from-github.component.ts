@@ -1,8 +1,8 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationProject} from '../../../model/translation-project';
-import {IFileDescription} from '../../common/i-file-description';
-import {GithubConfiguration} from '../github-configuration';
-import { MatDialog } from "@angular/material/dialog";
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationProject} from '../../../model/translation-project.js';
+import {IFileDescription} from '../../common/i-file-description.js';
+import {GithubConfiguration} from '../github-configuration.js';
+import { MatDialog } from "@angular/material/dialog.js";
 import {FileExplorerDialogComponent, FileExplorerDialogData} from '../../common/file-explorer-dialog/file-explorer-dialog.component';
 
 @Component({

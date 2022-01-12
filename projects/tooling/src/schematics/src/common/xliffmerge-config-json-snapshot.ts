@@ -1,5 +1,5 @@
-import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics';
-import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
+import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics.js';
+import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 
 /**
  * Read and edit functionality on xliffmerge.json

@@ -1,4 +1,4 @@
-import {TranslationUnit} from '../translation-unit';
+import {TranslationUnit} from '../translation-unit.js';
 /**
  * A TranslationUnitFilter determines wether a trans unit belongs to the currently selected view.
  * Created by martin on 27.05.2017.

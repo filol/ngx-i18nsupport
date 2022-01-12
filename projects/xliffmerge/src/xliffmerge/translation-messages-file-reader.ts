@@ -2,8 +2,8 @@
  * Created by roobm on 21.03.2017.
  */
 import {ITranslationMessagesFile, TranslationMessagesFileFactory} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {FileUtil} from '../common/file-util';
-import {XmlReader} from './xml-reader';
+import {FileUtil} from '../common/file-util.js';
+import {XmlReader} from './xml-reader.js';
 
 /**
  * Helper class to read translation files depending on format.

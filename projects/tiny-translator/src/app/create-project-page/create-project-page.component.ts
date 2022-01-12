@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {TranslationProject} from '../model/translation-project';
-import {Router} from '@angular/router';
+import {TranslationProject} from '../model/translation-project.js';
+import {Router} from '@angular/router.js';
 
 @Component({
   selector: 'app-create-project-page',

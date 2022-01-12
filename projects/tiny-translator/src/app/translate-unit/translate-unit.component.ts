@@ -1,17 +1,17 @@
-import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChange, SimpleChanges} from '@angular/core';
-import {TranslationUnit} from '../model/translation-unit';
-import { MatDialog } from "@angular/material/dialog";
-import { MatSnackBar } from "@angular/material/snack-bar";
-import {NormalizedMessage} from '../model/normalized-message';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChange, SimpleChanges} from '@angular/core.js';
+import {TranslationUnit} from '../model/translation-unit.js';
+import { MatDialog } from "@angular/material/dialog.js";
+import { MatSnackBar } from "@angular/material/snack-bar.js";
+import {NormalizedMessage} from '../model/normalized-message.js';
 import {FormBuilder, FormGroup} from '@angular/forms';
-import {Observable, of} from 'rxjs';
+import {Observable, of} from 'rxjs.js';
 import {TranslateUnitWarningConfirmDialogComponent} from '../translate-unit-warning-confirm-dialog/translate-unit-warning-confirm-dialog.component';
-import {TranslationFileView} from '../model/translation-file-view';
-import {WorkflowType} from '../model/translation-project';
-import {STATE_FINAL, STATE_TRANSLATED} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {AutoTranslateServiceAPI} from '../model/auto-translate-service-api';
-import {isNullOrUndefined} from '../common/util';
-import {map} from 'rxjs/operators';
+import {TranslationFileView} from '../model/translation-file-view.js';
+import {WorkflowType} from '../model/translation-project.js';
+import {STATE_FINAL, STATE_TRANSLATED} from '@ngx-i18nsupport/ngx-i18nsupport-lib.js';
+import {AutoTranslateServiceAPI} from '../model/auto-translate-service-api.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {map} from 'rxjs/operators.js';
 
 export enum NavigationDirection {
   NEXT,

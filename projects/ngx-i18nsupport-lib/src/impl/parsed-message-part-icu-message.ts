@@ -1,12 +1,12 @@
-import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part';
-import {IICUMessage, INormalizedMessage} from '../api/index';
+import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part.js';
+import {IICUMessage, INormalizedMessage} from '../api/index.js';
 import {
     COMMA, CURLY_BRACE_CLOSE, CURLY_BRACE_OPEN, ICUMessageTokenizer, ICUToken, PLURAL, SELECT,
     TEXT
 } from './icu-message-tokenizer';
 import {ICUMessage} from './icu-message';
 import {format} from 'util';
-import {IMessageParser} from './i-message-parser';
+import {IMessageParser} from './i-message-parser.js';
 
 /**
  * Created by martin on 02.06.2017.

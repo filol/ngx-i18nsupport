@@ -1,5 +1,5 @@
 import {Writable} from 'stream';
-import {isString} from './util';
+import {isString} from './util.js';
 /**
  * Created by martin on 20.02.2017.
  * A helper class for testing.

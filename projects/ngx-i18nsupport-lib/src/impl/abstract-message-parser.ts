@@ -1,4 +1,4 @@
-import {ParsedMessage} from './parsed-message';
+import {ParsedMessage} from './parsed-message.js';
 import {
     EMPTY_TAG,
     END_TAG, ICU_MESSAGE, ICU_MESSAGE_REF, ParsedMesageTokenizer, PLACEHOLDER, START_TAG, TEXT,
@@ -6,15 +6,15 @@ import {
 } from './parsed-message-tokenizer';
 import {ParsedMessagePartText} from './parsed-message-part-text';
 import {DOMParser} from 'xmldom';
-import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag';
-import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder';
-import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag';
+import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag.js';
+import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder.js';
+import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag.js';
 import {IMessageParser} from './i-message-parser';
 import {format, isNullOrUndefined} from 'util';
-import {DOMUtilities} from './dom-utilities';
-import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag';
-import {ParsedMessagePartICUMessageRef} from './parsed-message-part-icu-message-ref';
-import {ParsedMessagePartICUMessage} from './parsed-message-part-icu-message';
+import {DOMUtilities} from './dom-utilities.js';
+import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag.js';
+import {ParsedMessagePartICUMessageRef} from './parsed-message-part-icu-message-ref.js';
+import {ParsedMessagePartICUMessage} from './parsed-message-part-icu-message.js';
 /**
  * Created by roobm on 10.05.2017.
  * A message parser can parse the xml content of a translatable message.

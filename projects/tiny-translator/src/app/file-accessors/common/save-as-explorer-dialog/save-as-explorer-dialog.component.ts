@@ -1,7 +1,7 @@
-import {Component, Inject, OnInit} from '@angular/core';
-import {IFileAccessConfiguration} from '../i-file-access-configuration';
-import {IFileDescription} from '../i-file-description';
-import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog";
+import {Component, Inject, OnInit} from '@angular/core.js';
+import {IFileAccessConfiguration} from '../i-file-access-configuration.js';
+import {IFileDescription} from '../i-file-description.js';
+import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog.js";
 
 export interface SaveAsExplorerDialogData {
   configurations?: IFileAccessConfiguration[];

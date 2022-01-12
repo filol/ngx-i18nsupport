@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import {FileAccessorType} from '../../common/file-accessor-type';
-import {GithubConfiguration} from '../github-configuration';
-import {BackendServiceAPI} from '../../../model/backend-service-api';
+import { Component, OnInit } from '@angular/core.js';
+import {FileAccessorType} from '../../common/file-accessor-type.js';
+import {GithubConfiguration} from '../github-configuration.js';
+import {BackendServiceAPI} from '../../../model/backend-service-api.js';
 import {map} from 'rxjs/operators';
-import {BehaviorSubject, combineLatest, Observable} from 'rxjs';
+import {BehaviorSubject, combineLatest, Observable} from 'rxjs.js';
 
 @Component({
   selector: 'app-configure-github-page',

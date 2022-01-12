@@ -1,10 +1,10 @@
-import {STATE_NEW, STATE_TRANSLATED} from '../api/constants';
-import {ITranslationMessagesFile} from '../api/i-translation-messages-file';
-import {INormalizedMessage} from '../api/i-normalized-message';
+import {STATE_NEW, STATE_TRANSLATED} from '../api/constants.js';
+import {ITranslationMessagesFile} from '../api/i-translation-messages-file.js';
+import {INormalizedMessage} from '../api/i-normalized-message.js';
 import {ITransUnit} from '../api/i-trans-unit';
 import {isNullOrUndefined} from 'util';
 import {DOMParser} from 'xmldom';
-import {XmlSerializer, XmlSerializerOptions} from './xml-serializer';
+import {XmlSerializer, XmlSerializerOptions} from './xml-serializer.js';
 /**
  * Created by roobm on 09.05.2017.
  * Abstract superclass for all implementations of ITranslationMessagesFile.

@@ -1,16 +1,16 @@
 import {Observable, of} from 'rxjs';
-import {Injectable} from '@angular/core';
-import {FileStatus, IFileAccessService, IFileStats} from '../common/i-file-access-service';
-import {IFile} from '../common/i-file';
-import {DownloadUploadFileDescription} from './download-upload-file-description';
+import {Injectable} from '@angular/core.js';
+import {FileStatus, IFileAccessService, IFileStats} from '../common/i-file-access-service.js';
+import {IFile} from '../common/i-file.js';
+import {DownloadUploadFileDescription} from './download-upload-file-description.js';
 import {AsynchronousFileReaderService} from './asynchronous-file-reader.service';
 import {DownloaderService} from './downloader.service';
-import {map} from 'rxjs/operators';
-import {IFileAccessConfiguration} from '../common/i-file-access-configuration';
-import {DownloadUploadConfiguration} from './download-upload-configuration';
+import {map} from 'rxjs/operators.js';
+import {IFileAccessConfiguration} from '../common/i-file-access-configuration.js';
+import {DownloadUploadConfiguration} from './download-upload-configuration.js';
 import {SerializationService} from '../../model/serialization.service';
-import {GenericFile} from '../common/generic-file';
-import {IFileDescription} from '../common/i-file-description';
+import {GenericFile} from '../common/generic-file.js';
+import {IFileDescription} from '../common/i-file-description.js';
 
 @Injectable()
 export class DownloadUploadService implements IFileAccessService {

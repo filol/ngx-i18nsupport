@@ -1,6 +1,6 @@
-import {INormalizedMessage} from './i-normalized-message';
-import {ITranslationMessagesFile} from './i-translation-messages-file';
-import {INote} from './i-note';
+import {INormalizedMessage} from './i-normalized-message.js';
+import {ITranslationMessagesFile} from './i-translation-messages-file.js';
+import {INote} from './i-note.js';
 
 /**
  * Created by martin on 19.03.2017.

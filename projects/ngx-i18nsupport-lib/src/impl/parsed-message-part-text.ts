@@ -1,4 +1,4 @@
-import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part';
+import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part.js';
 /**
  * Created by martin on 05.05.2017.
  * A message part consisting of just simple text.

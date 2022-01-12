@@ -2,14 +2,14 @@
  * Some common functions used by testcases.
  */
 
-import {UnitTestTree} from '@angular-devkit/schematics/testing';
-import {Schema as WorkspaceOptions} from '@schematics/angular/workspace/schema';
-import {Schema as ApplicationOptions, Style} from '@schematics/angular/application/schema';
-import {Schema as LibraryOptions} from '@schematics/angular/library/schema';
-import {IPackageJson} from './package-json-snapshot';
-import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models';
-import {IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport';
-import {WorkspaceSnaphot} from './workspace-snapshot';
+import {UnitTestTree} from '@angular-devkit/schematics/testing.js';
+import {Schema as WorkspaceOptions} from '@schematics/angular/workspace/schema.js';
+import {Schema as ApplicationOptions, Style} from '@schematics/angular/application/schema.js';
+import {Schema as LibraryOptions} from '@schematics/angular/library/schema.js';
+import {IPackageJson} from './package-json-snapshot.js';
+import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models.js';
+import {IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport.js';
+import {WorkspaceSnaphot} from './workspace-snapshot.js';
 
 export const workspaceOptions: WorkspaceOptions = {
     name: 'workspace',

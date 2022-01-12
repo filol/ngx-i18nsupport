@@ -1,8 +1,8 @@
-import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
-import {IFileAccessConfiguration} from '../i-file-access-configuration';
-import {IFileDescription} from '../i-file-description';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core.js';
+import {IFileAccessConfiguration} from '../i-file-access-configuration.js';
+import {IFileDescription} from '../i-file-description.js';
 import {FileExplorerDialogComponent, FileExplorerDialogData} from '../file-explorer-dialog/file-explorer-dialog.component';
-import { MatDialog } from "@angular/material/dialog";
+import { MatDialog } from "@angular/material/dialog.js";
 import {SaveAsExplorerDialogComponent, SaveAsExplorerDialogData} from '../save-as-explorer-dialog/save-as-explorer-dialog.component';
 
 /**

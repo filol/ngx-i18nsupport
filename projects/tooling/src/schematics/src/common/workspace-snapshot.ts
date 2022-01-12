@@ -2,12 +2,12 @@
  * Additional angular.json specific tool functions that are not part of normal project.ts
  */
 
-import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics';
-import {ProjectType, WorkspaceProject, WorkspaceSchema} from '../../schematics-core/utility/workspace-models';
-import {OptionsAfterSetup} from './options-after-setup';
-import {xliffmergeBuilderName, xliffmergeBuilderSpec} from './constants';
-import {buildConfigurationForLanguage, serveConfigurationForLanguage} from './common-functions';
-import {IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport';
+import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics.js';
+import {ProjectType, WorkspaceProject, WorkspaceSchema} from '../../schematics-core/utility/workspace-models.js';
+import {OptionsAfterSetup} from './options-after-setup.js';
+import {xliffmergeBuilderName, xliffmergeBuilderSpec} from './constants.js';
+import {buildConfigurationForLanguage, serveConfigurationForLanguage} from './common-functions.js';
+import {IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 
 /**
  * Read and edit functionality on angular.json

@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser.js';
+import { NgModule } from '@angular/core.js';
 
 import { AppComponent } from './app.component';
 

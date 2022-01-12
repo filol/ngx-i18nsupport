@@ -1,16 +1,16 @@
 /**
  * Created by martin on 31.03.2017.
  */
-import { TestBed, async, inject } from '@angular/core/testing';
+import { TestBed, async, inject } from '@angular/core/testing.js';
 
 import { ActiveProjectGuard } from './active-project.guard';
 import {TinyTranslatorService} from './model/tiny-translator.service';
-import {RouterTestingModule} from '@angular/router/testing';
+import {RouterTestingModule} from '@angular/router/testing.js';
 import {Router} from '@angular/router';
 
 class TinyTranslatorServiceStub {
   public currentProject(): any {
-    return 'a project dummy';
+    return 'a project dummy.js';
   }
 }
 

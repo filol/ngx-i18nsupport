@@ -1,4 +1,4 @@
-import {INormalizedMessage} from './i-normalized-message';
+import {INormalizedMessage} from './i-normalized-message.js';
 /**
  * Created by martin on 02.06.2017.
  * Interfaces for handling of ICU Messages.

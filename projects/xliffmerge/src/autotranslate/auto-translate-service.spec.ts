@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import {FileUtil} from '../common/file-util';
 import {format} from 'util';
-import {AutoTranslateService} from './auto-translate-service';
+import {AutoTranslateService} from './auto-translate-service.js';
 /**
  * Created by roobm on 06.07.2017.
  * Testcases for the autotranslate service.

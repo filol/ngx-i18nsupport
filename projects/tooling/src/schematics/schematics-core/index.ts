@@ -12,7 +12,7 @@ import {
     capitalize
 } from './utility/strings';
 
-import {commaseparatedToArrayString, toArrayString} from './utility/special-strings';
+import {commaseparatedToArrayString, toArrayString} from './utility/special-strings.js';
 
 export { parseName } from './utility/parse-name';
 export { getProject} from './utility/project';

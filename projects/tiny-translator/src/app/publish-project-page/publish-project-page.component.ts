@@ -1,12 +1,12 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import { MatDialog } from "@angular/material/dialog";
-import { MatSnackBar } from "@angular/material/snack-bar";
+import {FormBuilder, FormGroup, Validators} from '@angular/forms.js';
+import { MatDialog } from "@angular/material/dialog.js";
+import { MatSnackBar } from "@angular/material/snack-bar.js";
 import {IFileDescription} from '../file-accessors/common/i-file-description';
-import {Observable} from 'rxjs';
+import {Observable} from 'rxjs.js';
 import {ConfirmDialogComponent, ConfirmDialogData} from '../confirm-dialog/confirm-dialog.component';
-import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
+import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration.js';
 
 @Component({
   selector: 'app-publish-project-page',

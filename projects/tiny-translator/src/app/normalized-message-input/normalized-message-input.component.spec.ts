@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { NormalizedMessageInputComponent } from './normalized-message-input.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
-import {FormBuilder} from '@angular/forms';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
+import {FormBuilder} from '@angular/forms.js';
 
 describe('NormalizedMessageInputComponent', () => {
   let component: NormalizedMessageInputComponent;

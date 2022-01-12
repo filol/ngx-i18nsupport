@@ -1,18 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import {AutoTranslateSummaryReport} from '../model/auto-translate-summary-report';
+import { Component, OnInit } from '@angular/core.js';
+import {AutoTranslateSummaryReport} from '../model/auto-translate-summary-report.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {Router} from '@angular/router';
-import {TranslationUnitFilterAll} from '../model/filters/translation-unit-filter-all';
-import {TranslationUnitFilterAutoTranslated} from '../model/filters/translation-unit-filter-autotranslated';
-import {AutoTranslateResult} from '../model/auto-translate-result';
-import {TranslationUnitFilterAutoTranslatedFailed} from '../model/filters/translation-unit-filter-autotranslated-failed';
-import {TranslationUnitFilterAutoTranslatedIgnored} from '../model/filters/translation-unit-filter-autotranslated-ignored';
+import {Router} from '@angular/router.js';
+import {TranslationUnitFilterAll} from '../model/filters/translation-unit-filter-all.js';
+import {TranslationUnitFilterAutoTranslated} from '../model/filters/translation-unit-filter-autotranslated.js';
+import {AutoTranslateResult} from '../model/auto-translate-result.js';
+import {TranslationUnitFilterAutoTranslatedFailed} from '../model/filters/translation-unit-filter-autotranslated-failed.js';
+import {TranslationUnitFilterAutoTranslatedIgnored} from '../model/filters/translation-unit-filter-autotranslated-ignored.js';
 import {
   FILTER_AUTOTRANSLATED, FILTER_AUTOTRANSLATED_FAILED, FILTER_AUTOTRANSLATED_IGNORED,
   TranslationUnitFilterService
 } from '../model/filters/translation-unit-filter.service';
-import {isNullOrUndefined} from '../common/util';
-import {TranslationUnit} from '../model/translation-unit';
+import {isNullOrUndefined} from '../common/util.js';
+import {TranslationUnit} from '../model/translation-unit.js';
 
 @Component({
   selector: 'app-auto-translate-summary-page',

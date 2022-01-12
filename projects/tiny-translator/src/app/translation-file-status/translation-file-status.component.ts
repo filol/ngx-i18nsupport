@@ -1,6 +1,6 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationFile} from '../model/translation-file';
-import {TranslationFileView} from '../model/translation-file-view';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationFile} from '../model/translation-file.js';
+import {TranslationFileView} from '../model/translation-file-view.js';
 
 /**
  * Component to show the current status of a loaded translation file.

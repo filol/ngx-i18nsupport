@@ -1,7 +1,7 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationProject} from '../model/translation-project';
-import {TranslationFile} from '../model/translation-file';
-import {Router} from '@angular/router';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationProject} from '../model/translation-project.js';
+import {TranslationFile} from '../model/translation-file.js';
+import {Router} from '@angular/router.js';
 
 /**
  * Shows the actual translation status of a project.

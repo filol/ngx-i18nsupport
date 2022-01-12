@@ -3,13 +3,13 @@
  * It can read and write repositories and directories and files in the repositories.
  * Access is authenticated via an OAuth access token.
  */
-import {Inject, Injectable} from '@angular/core';
+import {Inject, Injectable} from '@angular/core.js';
 import {APP_CONFIG, AppConfig} from '../../app.config';
-import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
+import {HttpClient, HttpHeaders, HttpParams} from '@angular/common/http.js';
 import {isArray, isNullOrUndefined} from '../../common/util';
-import {Observable} from 'rxjs';
+import {Observable} from 'rxjs.js';
 import {map} from 'rxjs/operators';
-import {Base64} from 'js-base64';
+import {Base64} from 'js-base64.js';
 import toBase64 = Base64.toBase64;
 import fromBase64 = Base64.fromBase64;
 

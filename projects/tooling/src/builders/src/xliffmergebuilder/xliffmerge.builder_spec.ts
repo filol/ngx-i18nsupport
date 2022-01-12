@@ -1,9 +1,9 @@
-import {join, JsonObject, normalize, virtualFs} from '@angular-devkit/core';
-import {Architect, BuilderOutput, Target} from '@angular-devkit/architect';
-import {createArchitect, host} from './testing_utils';
-import {TestLogger} from './testlogger_spec';
-import {XliffmergeBuilderSchema} from './schema';
-import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
+import {join, JsonObject, normalize, virtualFs} from '@angular-devkit/core.js';
+import {Architect, BuilderOutput, Target} from '@angular-devkit/architect.js';
+import {createArchitect, host} from './testing_utils.js';
+import {TestLogger} from './testlogger_spec.js';
+import {XliffmergeBuilderSchema} from './schema.js';
+import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 
 describe('xliffmerge.builder', () => {
 

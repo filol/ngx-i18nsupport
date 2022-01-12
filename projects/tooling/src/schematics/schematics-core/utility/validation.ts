@@ -5,8 +5,8 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { tags } from '@angular-devkit/core';
-import { SchematicsException } from '@angular-devkit/schematics';
+import { tags } from '@angular-devkit/core.js';
+import { SchematicsException } from '@angular-devkit/schematics.js';
 
 export function validateName(name: string): void {
   if (name && /^\d/.test(name)) {

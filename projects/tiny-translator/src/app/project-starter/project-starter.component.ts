@@ -1,13 +1,13 @@
-import {Component, EventEmitter, OnDestroy, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, OnDestroy, OnInit, Output} from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {TranslationProject, UserRole, WorkflowType} from '../model/translation-project';
-import {isNullOrUndefined} from '../common/util';
-import {FormBuilder, FormGroup} from '@angular/forms';
-import {IFileDescription} from '../file-accessors/common/i-file-description';
-import {FileAccessorType} from '../file-accessors/common/file-accessor-type';
+import {TranslationProject, UserRole, WorkflowType} from '../model/translation-project.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {FormBuilder, FormGroup} from '@angular/forms.js';
+import {IFileDescription} from '../file-accessors/common/i-file-description.js';
+import {FileAccessorType} from '../file-accessors/common/file-accessor-type.js';
 import {FileAccessServiceFactoryService} from '../file-accessors/common/file-access-service-factory.service';
 import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
-import {Observable, Subscription} from 'rxjs';
+import {Observable, Subscription} from 'rxjs.js';
 
 /**
  * The ProjectStarter is an upload component.

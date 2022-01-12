@@ -5,8 +5,8 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { JsonAstObject, JsonParseMode, parseJsonAst } from '@angular-devkit/core';
-import { SchematicsException, Tree } from '@angular-devkit/schematics';
+import { JsonAstObject, JsonParseMode, parseJsonAst } from '@angular-devkit/core.js';
+import { SchematicsException, Tree } from '@angular-devkit/schematics.js';
 import {
   appendPropertyInAstObject,
   findPropertyInAstObject,

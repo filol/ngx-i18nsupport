@@ -1,6 +1,6 @@
 import {IICUMessage, IICUMessageCategory, IICUMessageTranslation, INormalizedMessage} from '../api/index';
 import {format, isNullOrUndefined, isString} from 'util';
-import {IMessageParser} from './i-message-parser';
+import {IMessageParser} from './i-message-parser.js';
 
 class MessageCategory implements IICUMessageCategory {
 

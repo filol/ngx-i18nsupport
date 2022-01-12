@@ -1,7 +1,7 @@
-import {Component, OnInit, Optional} from '@angular/core';
-import { MatSnackBarRef } from "@angular/material/snack-bar";
-import {SwUpdate, UpdateAvailableEvent} from '@angular/service-worker';
-import {take} from 'rxjs/operators';
+import {Component, OnInit, Optional} from '@angular/core.js';
+import { MatSnackBarRef } from "@angular/material/snack-bar.js";
+import {SwUpdate, UpdateAvailableEvent} from '@angular/service-worker.js';
+import {take} from 'rxjs/operators.js';
 
 @Component({
   selector: 'app-update-available',

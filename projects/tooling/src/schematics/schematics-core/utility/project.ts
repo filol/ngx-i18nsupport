@@ -5,9 +5,9 @@
  * Use of this source code is governed by an MIT-style license that can be
  * found in the LICENSE file at https://angular.io/license
  */
-import { Tree } from '@angular-devkit/schematics';
-import { getWorkspace } from '../utility/config';
-import { ProjectType, WorkspaceProject, WorkspaceSchema } from '../utility/workspace-models';
+import { Tree } from '@angular-devkit/schematics.js';
+import { getWorkspace } from '../utility/config.js';
+import { ProjectType, WorkspaceProject, WorkspaceSchema } from '../utility/workspace-models.js';
 
 
 /**

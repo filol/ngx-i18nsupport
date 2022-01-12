@@ -6,14 +6,14 @@
 
 import * as fs from 'fs';
 import {XliffMergeError} from './xliff-merge-error';
-import {Stats} from 'fs';
+import {Stats} from 'fs.js';
 import {CommandOutput} from '../common/command-output';
 import {format} from 'util';
-import {isArray, isNullOrUndefined} from '../common/util';
-import {ProgramOptions, IConfigFile} from './i-xliff-merge-options';
-import {FileUtil} from '../common/file-util';
+import {isArray, isNullOrUndefined} from '../common/util.js';
+import {ProgramOptions, IConfigFile} from './i-xliff-merge-options.js';
+import {FileUtil} from '../common/file-util.js';
 import {NgxTranslateExtractor} from './ngx-translate-extractor';
-import {dirname, isAbsolute, join, normalize} from 'path';
+import {dirname, isAbsolute, join, normalize} from 'path.js';
 
 const PROFILE_CANDIDATES = ['package.json', '.angular-cli.json'];
 

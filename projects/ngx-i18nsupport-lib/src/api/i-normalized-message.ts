@@ -1,4 +1,4 @@
-import {IICUMessage, IICUMessageTranslation} from './i-icu-message';
+import {IICUMessage, IICUMessageTranslation} from './i-icu-message.js';
 
 /**
  * Created by martin on 09.05.2017.

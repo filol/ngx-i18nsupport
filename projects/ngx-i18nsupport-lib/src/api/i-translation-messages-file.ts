@@ -1,4 +1,4 @@
-import {ITransUnit} from './i-trans-unit';
+import {ITransUnit} from './i-trans-unit.js';
 
 /**
  * The Common interface of XliffFile and XmbFile.

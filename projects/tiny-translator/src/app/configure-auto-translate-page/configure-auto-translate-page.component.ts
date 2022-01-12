@@ -1,9 +1,9 @@
-import {Component, Inject, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
 import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 
-const TEST_MESSAGE = 'Hello world!';
+const TEST_MESSAGE = 'Hello world!.js';
 
 @Component({
   selector: 'app-configure-auto-translate-page',

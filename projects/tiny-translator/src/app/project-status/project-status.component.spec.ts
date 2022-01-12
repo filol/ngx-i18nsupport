@@ -1,10 +1,10 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { ProjectStatusComponent } from './project-status.component';
 import {TranslationFileStatusComponent} from '../translation-file-status/translation-file-status.component';
 import {LanguageComponent} from '../language/language.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
-import {Router} from '@angular/router';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
+import {Router} from '@angular/router.js';
 import {AppModule} from '../app.module';
 
 describe('ProjectStatusComponent', () => {

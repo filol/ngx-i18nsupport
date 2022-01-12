@@ -1,5 +1,5 @@
 import {Rule, SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics';
-import chalk from 'chalk';
+import chalk from 'chalk.js';
 import {
     addXliffmergeDependencyToPackageJson,
     defaultI18nFormat, defaultI18nLocale, extractScriptName,
@@ -8,10 +8,10 @@ import {
     setupCommonOptions,
     WorkspaceSnaphot, xliffmergeBuilderName, xliffmergeBuilderSpec
 } from '../common';
-import {ExtractScript} from '../common/extract-script';
-import {NgUpdateOptions} from './schema';
-import {XliffmergeConfigJsonSnapshot} from '../common/xliffmerge-config-json-snapshot';
-import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
+import {ExtractScript} from '../common/extract-script.js';
+import {NgUpdateOptions} from './schema.js';
+import {XliffmergeConfigJsonSnapshot} from '../common/xliffmerge-config-json-snapshot.js';
+import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 
 function setupOptions(optionsFromCommandline: NgUpdateOptions,
                       extractScript: ExtractScript,

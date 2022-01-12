@@ -6,7 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 
-import { experimental } from '@angular-devkit/core';
+import { experimental } from '@angular-devkit/core.js';
 
 export enum ProjectType {
     Application = 'application',

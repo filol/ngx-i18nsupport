@@ -1,7 +1,7 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {IFileDescription} from '../i-file-description';
-import {IFileAccessConfiguration} from '../i-file-access-configuration';
-import {FormBuilder, FormGroup} from '@angular/forms';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {IFileDescription} from '../i-file-description.js';
+import {IFileAccessConfiguration} from '../i-file-access-configuration.js';
+import {FormBuilder, FormGroup} from '@angular/forms.js';
 
 @Component({
   selector: 'app-save-as-explorer',

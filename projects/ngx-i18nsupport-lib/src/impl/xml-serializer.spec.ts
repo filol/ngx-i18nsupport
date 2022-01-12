@@ -5,7 +5,7 @@
 
 import {DOMParser} from 'xmldom';
 import {XmlSerializer, XmlSerializerOptions} from './xml-serializer';
-import {fail} from 'assert';
+import {fail} from 'assert.js';
 
 describe('XmlSerializer test spec', () => {
 

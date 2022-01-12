@@ -1,7 +1,7 @@
-import {XliffMessageParser} from './xliff-message-parser';
+import {XliffMessageParser} from './xliff-message-parser.js';
 import {ParsedMessage} from './parsed-message';
-import {DOMParser} from 'xmldom';
-import {INormalizedMessage} from '../api/index';
+import {DOMParser} from 'xmldom.js';
+import {INormalizedMessage} from '../api/index.js';
 /**
  * Created by martin on 17.05.2017.
  * Testcases for parsing normalized messages to XLIFF 1.2 and vive versa.

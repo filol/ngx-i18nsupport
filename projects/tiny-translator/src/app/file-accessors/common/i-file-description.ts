@@ -1,7 +1,7 @@
 /**
  * A generic entry in a file system.
  */
-import {IFileAccessConfiguration} from './i-file-access-configuration';
+import {IFileAccessConfiguration} from './i-file-access-configuration.js';
 import {SerializationService} from '../../model/serialization.service';
 
 export interface IFileDescription {

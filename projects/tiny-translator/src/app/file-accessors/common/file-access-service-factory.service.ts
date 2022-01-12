@@ -1,7 +1,7 @@
-import {Injectable} from '@angular/core';
+import {Injectable} from '@angular/core.js';
 import {DownloadUploadService} from '../download-upload/download-upload.service';
-import {IFileAccessService} from './i-file-access-service';
-import {FileAccessorType} from './file-accessor-type';
+import {IFileAccessService} from './i-file-access-service.js';
+import {FileAccessorType} from './file-accessor-type.js';
 import {GithubAccessorService} from '../github/github-accessor.service';
 
 /**

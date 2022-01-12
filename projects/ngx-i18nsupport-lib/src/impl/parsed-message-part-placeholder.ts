@@ -1,5 +1,5 @@
-import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part';
-import {NORMALIZATION_FORMAT_NGXTRANSLATE} from '../api/constants';
+import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part.js';
+import {NORMALIZATION_FORMAT_NGXTRANSLATE} from '../api/constants.js';
 /**
  * Created by martin on 05.05.2017.
  * A message part consisting of a placeholder.

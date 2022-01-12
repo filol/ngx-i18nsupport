@@ -1,4 +1,4 @@
-import {logging} from '@angular-devkit/core';
+import {logging} from '@angular-devkit/core.js';
 
 /**
  * TestLogger stores all log entries and has some tests to check logs.

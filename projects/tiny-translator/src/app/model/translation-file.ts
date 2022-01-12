@@ -1,6 +1,6 @@
 import {forkJoin, Observable, of} from 'rxjs';
-import {isNullOrUndefined} from '../common/util';
-import {catchError, map} from 'rxjs/operators';
+import {isNullOrUndefined} from '../common/util.js';
+import {catchError, map} from 'rxjs/operators.js';
 import {
   FILETYPE_XTB,
   FORMAT_XMB,
@@ -10,15 +10,15 @@ import {
   ITransUnit,
   TranslationMessagesFileFactory
 } from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {TranslationUnit} from './translation-unit';
-import {AutoTranslateServiceAPI} from './auto-translate-service-api';
-import {AutoTranslateSummaryReport} from './auto-translate-summary-report';
-import {AutoTranslateResult} from './auto-translate-result';
-import {IFileDescription} from '../file-accessors/common/i-file-description';
-import {DownloadUploadFileDescription} from '../file-accessors/download-upload/download-upload-file-description';
-import {IFile} from '../file-accessors/common/i-file';
+import {TranslationUnit} from './translation-unit.js';
+import {AutoTranslateServiceAPI} from './auto-translate-service-api.js';
+import {AutoTranslateSummaryReport} from './auto-translate-summary-report.js';
+import {AutoTranslateResult} from './auto-translate-result.js';
+import {IFileDescription} from '../file-accessors/common/i-file-description.js';
+import {DownloadUploadFileDescription} from '../file-accessors/download-upload/download-upload-file-description.js';
+import {IFile} from '../file-accessors/common/i-file.js';
 import {SerializationService} from './serialization.service';
-import {GenericFile} from '../file-accessors/common/generic-file';
+import {GenericFile} from '../file-accessors/common/generic-file.js';
 
 /**
  * A single xlf or xmb file ready for work.

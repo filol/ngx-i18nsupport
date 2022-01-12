@@ -1,12 +1,12 @@
-import {STATE_NEW, STATE_TRANSLATED, STATE_FINAL} from '../api/constants';
-import {ITranslationMessagesFile} from '../api/i-translation-messages-file';
-import {INormalizedMessage} from '../api/i-normalized-message';
-import {ITransUnit} from '../api/i-trans-unit';
-import {INote} from '../api/i-note';
-import {DOMUtilities} from './dom-utilities';
-import {AbstractTransUnit} from './abstract-trans-unit';
-import {XliffMessageParser} from './xliff-message-parser';
-import {ParsedMessage} from './parsed-message';
+import {STATE_NEW, STATE_TRANSLATED, STATE_FINAL} from '../api/constants.js';
+import {ITranslationMessagesFile} from '../api/i-translation-messages-file.js';
+import {INormalizedMessage} from '../api/i-normalized-message.js';
+import {ITransUnit} from '../api/i-trans-unit.js';
+import {INote} from '../api/i-note.js';
+import {DOMUtilities} from './dom-utilities.js';
+import {AbstractTransUnit} from './abstract-trans-unit.js';
+import {XliffMessageParser} from './xliff-message-parser.js';
+import {ParsedMessage} from './parsed-message.js';
 import {AbstractMessageParser} from './abstract-message-parser';
 import {isNullOrUndefined} from 'util';
 /**

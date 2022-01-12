@@ -1,10 +1,10 @@
-import { TestBed, inject, async } from '@angular/core/testing';
+import { TestBed, inject, async } from '@angular/core/testing.js';
 
-import {HttpClientModule} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http.js';
 import { AutoTranslateGoogleService } from './auto-translate-google.service';
 import {APP_CONFIG, APP_CONFIG_VALUE} from '../app.config';
-import {AutoTranslateDisabledReasonKey} from './auto-translate-service-api';
-import {pairwise} from 'rxjs/operators';
+import {AutoTranslateDisabledReasonKey} from './auto-translate-service-api.js';
+import {pairwise} from 'rxjs/operators.js';
 
 describe('AutoTranslateGoogleService', () => {
   beforeEach(() => {

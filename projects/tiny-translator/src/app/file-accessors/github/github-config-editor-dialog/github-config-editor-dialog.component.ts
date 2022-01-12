@@ -1,6 +1,6 @@
-import {Component, Inject, OnInit} from '@angular/core';
-import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog";
-import {GithubConfiguration} from '../github-configuration';
+import {Component, Inject, OnInit} from '@angular/core.js';
+import { MAT_DIALOG_DATA, MatDialogRef } from "@angular/material/dialog.js";
+import {GithubConfiguration} from '../github-configuration.js';
 
 export interface GithubConfigEditorDialogData {
   configuration: GithubConfiguration;

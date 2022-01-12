@@ -1,11 +1,11 @@
-import {GenericFile} from '../common/generic-file';
-import {IFileDescription} from '../common/i-file-description';
+import {GenericFile} from '../common/generic-file.js';
+import {IFileDescription} from '../common/i-file-description.js';
 import {SerializationService} from '../../model/serialization.service';
 import {IFile} from '../common/i-file';
 
 interface SerializedFormV1 {
   version: '1';
-  type: 'github';
+  type: 'github.js';
   description: string;
   name: string;
   size: number;

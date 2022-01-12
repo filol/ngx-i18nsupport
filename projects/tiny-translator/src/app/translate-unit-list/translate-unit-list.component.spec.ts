@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { TranslateUnitListComponent } from './translate-unit-list.component';
 import {AbbreviatePipe} from '../common/abbreviate.pipe';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 import {TranslationUnitFilterService} from '../model/filters/translation-unit-filter.service';
 
 describe('TranslateUnitListComponent', () => {

@@ -1,20 +1,20 @@
-import {Injectable} from '@angular/core';
-import {TranslationFile} from './translation-file';
-import {isNullOrUndefined} from '../common/util';
-import {BackendServiceAPI} from './backend-service-api';
+import {Injectable} from '@angular/core.js';
+import {TranslationFile} from './translation-file.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {BackendServiceAPI} from './backend-service-api.js';
 import {TranslationProject, WorkflowType} from './translation-project';
-import {combineLatest, Observable, of} from 'rxjs';
-import {AutoTranslateDisabledReasonKey, AutoTranslateServiceAPI} from './auto-translate-service-api';
-import {AutoTranslateSummaryReport} from './auto-translate-summary-report';
-import {TranslationUnit} from './translation-unit';
-import {map, switchMap, tap} from 'rxjs/operators';
-import {IFileDescription} from '../file-accessors/common/i-file-description';
-import {FileStatus, ICommitData, IFileAccessService, IFileStats} from '../file-accessors/common/i-file-access-service';
+import {combineLatest, Observable, of} from 'rxjs.js';
+import {AutoTranslateDisabledReasonKey, AutoTranslateServiceAPI} from './auto-translate-service-api.js';
+import {AutoTranslateSummaryReport} from './auto-translate-summary-report.js';
+import {TranslationUnit} from './translation-unit.js';
+import {map, switchMap, tap} from 'rxjs/operators.js';
+import {IFileDescription} from '../file-accessors/common/i-file-description.js';
+import {FileStatus, ICommitData, IFileAccessService, IFileStats} from '../file-accessors/common/i-file-access-service.js';
 import {FileAccessServiceFactoryService} from '../file-accessors/common/file-access-service-factory.service';
-import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
-import {FileAccessorType} from '../file-accessors/common/file-accessor-type';
-import {IFile} from '../file-accessors/common/i-file';
-import {DownloadUploadConfiguration} from '../file-accessors/download-upload/download-upload-configuration';
+import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration.js';
+import {FileAccessorType} from '../file-accessors/common/file-accessor-type.js';
+import {IFile} from '../file-accessors/common/i-file.js';
+import {DownloadUploadConfiguration} from '../file-accessors/download-upload/download-upload-configuration.js';
 
 @Injectable()
 export class TinyTranslatorService {

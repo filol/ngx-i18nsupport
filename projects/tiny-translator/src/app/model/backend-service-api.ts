@@ -1,6 +1,6 @@
-import {TranslationProject} from './translation-project';
+import {TranslationProject} from './translation-project.js';
 import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
-import {Observable, of} from 'rxjs';
+import {Observable, of} from 'rxjs.js';
 
 /**
  * Interface of BackendService.

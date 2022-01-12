@@ -1,6 +1,6 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {TranslationProject} from '../model/translation-project';
-import {TranslationFile} from '../model/translation-file';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {TranslationProject} from '../model/translation-project.js';
+import {TranslationFile} from '../model/translation-file.js';
 
 @Component({
   selector: 'app-project',

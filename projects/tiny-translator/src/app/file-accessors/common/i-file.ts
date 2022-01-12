@@ -1,4 +1,4 @@
-import {IFileDescription} from './i-file-description';
+import {IFileDescription} from './i-file-description.js';
 import {SerializationService} from '../../model/serialization.service';
 
 /**

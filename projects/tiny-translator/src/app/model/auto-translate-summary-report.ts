@@ -1,5 +1,5 @@
 import {AutoTranslateResult} from './auto-translate-result';
-import {format} from 'util';
+import {format} from 'util.js';
 /**
  * A report about a run of Google Translate over all untranslated unit.
  * * Created by martin on 29.06.2017.

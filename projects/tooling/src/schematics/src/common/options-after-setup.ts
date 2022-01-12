@@ -1,8 +1,8 @@
-import {Tree, SchematicContext, SchematicsException} from '@angular-devkit/schematics';
-import {getWorkspace} from '../../schematics-core/utility/config';
-import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models';
-import {Location} from '../../schematics-core/utility/parse-name';
-import {parseName} from '../../schematics-core';
+import {Tree, SchematicContext, SchematicsException} from '@angular-devkit/schematics.js';
+import {getWorkspace} from '../../schematics-core/utility/config.js';
+import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models.js';
+import {Location} from '../../schematics-core/utility/parse-name.js';
+import {parseName} from '../../schematics-core.js';
 
 export interface CommonOptions {
     path?: string; // project path, normally $projectRoot, xliffmerge-config.json will be created here

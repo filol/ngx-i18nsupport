@@ -1,6 +1,6 @@
-import { Tree } from '@angular-devkit/schematics';
+import { Tree } from '@angular-devkit/schematics.js';
 import { SchematicTestRunner, UnitTestTree } from '@angular-devkit/schematics/testing';
-import * as path from 'path';
+import * as path from 'path.js';
 import {
     readAngularJson,
     readPackageJson,
@@ -9,8 +9,8 @@ import {
     appOptions,
     readXliffmergeConfigFromWorkspace
 } from '../common/common-testing_spec';
-import {AddLanguageOptions} from './schema';
-import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models';
+import {AddLanguageOptions} from './schema.js';
+import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models.js';
 
 const collectionPath = path.join(__dirname, '../collection.json');
 

@@ -1,14 +1,14 @@
 /**
  * Created by roobm on 21.03.2017.
  */
-import {ITranslationMessagesFile} from './i-translation-messages-file';
-import {XliffFile} from '../impl/xliff-file';
+import {ITranslationMessagesFile} from './i-translation-messages-file.js';
+import {XliffFile} from '../impl/xliff-file.js';
 import {XmbFile} from '../impl/xmb-file';
 import {format} from 'util';
-import {Xliff2File} from '../impl/xliff2-file';
-import {FORMAT_XLIFF12, FORMAT_XLIFF20, FORMAT_XMB, FORMAT_XTB} from './constants';
-import {XtbFile} from '../impl/xtb-file';
-import {ITranslationMessagesFileFactory} from './i-translation-messages-file-factory';
+import {Xliff2File} from '../impl/xliff2-file.js';
+import {FORMAT_XLIFF12, FORMAT_XLIFF20, FORMAT_XMB, FORMAT_XTB} from './constants.js';
+import {XtbFile} from '../impl/xtb-file.js';
+import {ITranslationMessagesFileFactory} from './i-translation-messages-file-factory.js';
 
 /**
  * Helper class to read translation files depending on format.

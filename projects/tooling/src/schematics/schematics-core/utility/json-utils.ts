@@ -12,7 +12,7 @@ import {
   JsonAstObject,
   JsonValue,
 } from '@angular-devkit/core';
-import { UpdateRecorder } from '@angular-devkit/schematics';
+import { UpdateRecorder } from '@angular-devkit/schematics.js';
 
 export function appendPropertyInAstObject(
   recorder: UpdateRecorder,

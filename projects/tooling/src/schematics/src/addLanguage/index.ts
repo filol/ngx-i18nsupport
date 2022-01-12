@@ -2,19 +2,19 @@
  * Schematic to add one or more additional languages to a project using @ngx-i18nsupport.
  */
 
-import {branchAndMerge, chain, noop, Rule, SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics';
-import {AddLanguageOptions} from './schema';
+import {branchAndMerge, chain, noop, Rule, SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics.js';
+import {AddLanguageOptions} from './schema.js';
 import {
     OptionsAfterSetup,
     setupCommonOptions,
     xliffmergeBuilderName, xliffmergeBuilderSpec, WorkspaceSnaphot, PackageJsonSnapshot
 } from '../common';
-import {IXliffMergeOptions, IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
+import {IXliffMergeOptions, IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 import {
     defaultI18nFormat, defaultI18nLocale,
     isValidLanguageSyntax
 } from '../common';
-import {XliffmergeConfigJsonSnapshot} from '../common/xliffmerge-config-json-snapshot';
+import {XliffmergeConfigJsonSnapshot} from '../common/xliffmerge-config-json-snapshot.js';
 
 /*
 Add language configuration of newly added languages.

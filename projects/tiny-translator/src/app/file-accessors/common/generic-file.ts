@@ -1,5 +1,5 @@
-import {IFile} from './i-file';
-import {IFileDescription} from './i-file-description';
+import {IFile} from './i-file.js';
+import {IFileDescription} from './i-file-description.js';
 import {SerializationService} from '../../model/serialization.service';
 
 interface SerializedFormV1 {

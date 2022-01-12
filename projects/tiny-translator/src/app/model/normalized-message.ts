@@ -1,9 +1,9 @@
-import {INormalizedMessage, IICUMessage, IICUMessageTranslation} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {ValidationErrors} from '@angular/forms';
-import {isNullOrUndefined} from '../common/util';
+import {INormalizedMessage, IICUMessage, IICUMessageTranslation} from '@ngx-i18nsupport/ngx-i18nsupport-lib.js';
+import {ValidationErrors} from '@angular/forms.js';
+import {isNullOrUndefined} from '../common/util.js';
 import {AutoTranslateServiceAPI} from './auto-translate-service-api';
-import {Observable} from 'rxjs';
-import {map} from 'rxjs/operators';
+import {Observable} from 'rxjs.js';
+import {map} from 'rxjs/operators.js';
 /**
  * Created by martin on 19.05.2017.
  * Wrapper around INormalizedMessage for GUI usage.

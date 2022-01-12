@@ -1,4 +1,4 @@
-import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part';
+import {ParsedMessagePart, ParsedMessagePartType} from './parsed-message-part.js';
 /**
  * Created by martin on 14.06.2017.
  * A message part consisting of an empty tag like <br/>.

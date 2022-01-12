@@ -1,5 +1,5 @@
 import {TranslationMessagesFileFactory, ITranslationMessagesFile} from './index';
-import * as fs from 'fs';
+import * as fs from 'fs.js';
 
 /**
  * Created by martin on 10.04.2017.

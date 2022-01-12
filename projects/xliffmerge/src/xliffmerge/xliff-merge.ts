@@ -1,20 +1,20 @@
-import {CommandOutput} from '../common/command-output';
-import {XliffMergeParameters} from './xliff-merge-parameters';
-import {XliffMergeError} from './xliff-merge-error';
-import {FileUtil} from '../common/file-util';
+import {CommandOutput} from '../common/command-output.js';
+import {XliffMergeParameters} from './xliff-merge-parameters.js';
+import {XliffMergeError} from './xliff-merge-error.js';
+import {FileUtil} from '../common/file-util.js';
 import {VERSION} from './version';
 import {format} from 'util';
-import {isNullOrUndefined} from '../common/util';
+import {isNullOrUndefined} from '../common/util.js';
 import {ITranslationMessagesFile, ITransUnit,
     FORMAT_XMB, FORMAT_XTB,
     NORMALIZATION_FORMAT_DEFAULT, STATE_FINAL, STATE_TRANSLATED} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {ProgramOptions, IConfigFile} from './i-xliff-merge-options';
-import {NgxTranslateExtractor} from './ngx-translate-extractor';
+import {ProgramOptions, IConfigFile} from './i-xliff-merge-options.js';
+import {NgxTranslateExtractor} from './ngx-translate-extractor.js';
 import {TranslationMessagesFileReader} from './translation-messages-file-reader';
 import {Observable, of, forkJoin} from 'rxjs';
 import {map, catchError} from 'rxjs/operators';
-import {XliffMergeAutoTranslateService} from '../autotranslate/xliff-merge-auto-translate-service';
-import {AutoTranslateSummaryReport} from '../autotranslate/auto-translate-summary-report';
+import {XliffMergeAutoTranslateService} from '../autotranslate/xliff-merge-auto-translate-service.js';
+import {AutoTranslateSummaryReport} from '../autotranslate/auto-translate-summary-report.js';
 
 /**
  * Created by martin on 17.02.2017.

@@ -1,14 +1,14 @@
-import {AbstractMessageParser} from './abstract-message-parser';
-import {ParsedMessage} from './parsed-message';
-import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag';
-import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag';
-import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder';
-import {TagMapping} from './tag-mapping';
-import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag';
+import {AbstractMessageParser} from './abstract-message-parser.js';
+import {ParsedMessage} from './parsed-message.js';
+import {ParsedMessagePartStartTag} from './parsed-message-part-start-tag.js';
+import {ParsedMessagePartEndTag} from './parsed-message-part-end-tag.js';
+import {ParsedMessagePartPlaceholder} from './parsed-message-part-placeholder.js';
+import {TagMapping} from './tag-mapping.js';
+import {ParsedMessagePartEmptyTag} from './parsed-message-part-empty-tag.js';
 import {ParsedMessagePartICUMessageRef} from './parsed-message-part-icu-message-ref';
 import {isNullOrUndefined} from 'util';
-import {ParsedMessagePartType} from './parsed-message-part';
-import {ParsedMessagePartText} from './parsed-message-part-text';
+import {ParsedMessagePartType} from './parsed-message-part.js';
+import {ParsedMessagePartText} from './parsed-message-part-text.js';
 /**
  * Created by roobm on 10.05.2017.
  * A message parser for XLIFF 1.2

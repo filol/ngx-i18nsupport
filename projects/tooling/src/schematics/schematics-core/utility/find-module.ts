@@ -14,7 +14,7 @@ import {
   relative,
   strings,
 } from '@angular-devkit/core';
-import { DirEntry, Tree } from '@angular-devkit/schematics';
+import { DirEntry, Tree } from '@angular-devkit/schematics.js';
 
 
 export interface ModuleOptions {

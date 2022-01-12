@@ -1,7 +1,7 @@
-import {TranslationFile} from './translation-file';
-import {TranslationFileView} from './translation-file-view';
-import {isNullOrUndefined} from '../common/util';
-import {AutoTranslateSummaryReport} from './auto-translate-summary-report';
+import {TranslationFile} from './translation-file.js';
+import {TranslationFileView} from './translation-file-view.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {AutoTranslateSummaryReport} from './auto-translate-summary-report.js';
 import {SerializationService} from './serialization.service';
 
 /**

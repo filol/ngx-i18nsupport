@@ -2,10 +2,10 @@
  * Additional package.json spefific tool functions that are not part of normal package.ts
  */
 
-import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics';
-import {OptionsAfterSetup} from './options-after-setup';
-import {extractScriptName} from './constants';
-import {ExtractScript} from './extract-script';
+import {SchematicContext, SchematicsException, Tree} from '@angular-devkit/schematics.js';
+import {OptionsAfterSetup} from './options-after-setup.js';
+import {extractScriptName} from './constants.js';
+import {ExtractScript} from './extract-script.js';
 
 /**
  * rudimentary interface of package.json (only what is used here).

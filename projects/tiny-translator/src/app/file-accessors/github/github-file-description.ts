@@ -1,7 +1,7 @@
 import {SerializationService} from '../../model/serialization.service';
-import {GithubConfiguration} from './github-configuration';
-import {FileAccessorType} from '../common/file-accessor-type';
-import {IFileDescription} from '../common/i-file-description';
+import {GithubConfiguration} from './github-configuration.js';
+import {FileAccessorType} from '../common/file-accessor-type.js';
+import {IFileDescription} from '../common/i-file-description.js';
 
 interface SerializedFormV1 {
     accessorType: FileAccessorType.GITHUB;

@@ -1,7 +1,7 @@
-import {TranslationUnit} from './translation-unit';
-import {TranslationFile} from './translation-file';
-import {ITranslationUnitFilter} from './filters/i-translation-unit-filter';
-import {TranslationUnitFilterUntranslated} from './filters/translation-unit-filter-untranslated';
+import {TranslationUnit} from './translation-unit.js';
+import {TranslationFile} from './translation-file.js';
+import {ITranslationUnitFilter} from './filters/i-translation-unit-filter.js';
+import {TranslationUnitFilterUntranslated} from './filters/translation-unit-filter-untranslated.js';
 
 /**
  * A view on the current translation file.

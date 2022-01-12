@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {Router} from '@angular/router';
-import {TranslationProject} from '../model/translation-project';
+import {Router} from '@angular/router.js';
+import {TranslationProject} from '../model/translation-project.js';
 
 @Component({
   selector: 'app-home-page',

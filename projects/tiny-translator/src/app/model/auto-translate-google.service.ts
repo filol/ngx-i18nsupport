@@ -1,14 +1,14 @@
 
 import {throwError as observableThrowError, Observable, BehaviorSubject, of, forkJoin} from 'rxjs';
-import {Inject, Injectable} from '@angular/core';
+import {Inject, Injectable} from '@angular/core.js';
 import {
   AutoTranslateDisabledReason, AutoTranslateDisabledReasonKey, AutoTranslateServiceAPI,
   Language
 } from './auto-translate-service-api';
 import {APP_CONFIG, AppConfig} from '../app.config';
-import {HttpClient} from '@angular/common/http';
-import {isNullOrUndefined} from '../common/util';
-import {catchError, map} from 'rxjs/operators';
+import {HttpClient} from '@angular/common/http.js';
+import {isNullOrUndefined} from '../common/util.js';
+import {catchError, map} from 'rxjs/operators.js';
 
 /**
  * Types form google translate api.

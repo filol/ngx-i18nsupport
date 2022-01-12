@@ -1,6 +1,6 @@
-import {FileAccessorType} from './file-accessor-type';
+import {FileAccessorType} from './file-accessor-type.js';
 import {SerializationService} from '../../model/serialization.service';
-import {IFileDescription} from './i-file-description';
+import {IFileDescription} from './i-file-description.js';
 
 /**
  * A generic configuration of a file access service.

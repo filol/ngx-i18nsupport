@@ -8,7 +8,7 @@ import {
 } from '../api/index';
 import * as fs from 'fs';
 import {DOMParser} from 'xmldom';
-import {DOMUtilities} from './dom-utilities';
+import {DOMUtilities} from './dom-utilities.js';
 
 /**
  * Created by martin on 28.04.2017.

@@ -2,9 +2,9 @@
  * Interface to read and save file like objects from a backend system.
  */
 import {Observable} from 'rxjs';
-import {IFile} from './i-file';
-import {IFileAccessConfiguration} from './i-file-access-configuration';
-import {IFileDescription} from './i-file-description';
+import {IFile} from './i-file.js';
+import {IFileAccessConfiguration} from './i-file-access-configuration.js';
+import {IFileDescription} from './i-file-description.js';
 import {SerializationService} from '../../model/serialization.service';
 
 /**

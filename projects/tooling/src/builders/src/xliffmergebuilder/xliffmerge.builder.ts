@@ -4,12 +4,12 @@
  https://medium.com/dailyjs/angular-cli-6-under-the-hood-builders-demystified-f0690ebcf01 by Evgeny Barabanov
 **/
 import {Observable, of} from 'rxjs';
-import {catchError, map} from 'rxjs/operators';
-import {asWindowsPath, getSystemPath, join, normalize, Path} from '@angular-devkit/core';
-import {BuilderContext, BuilderOutput} from '@angular-devkit/architect';
-import {XliffmergeBuilderSchema} from './schema';
+import {catchError, map} from 'rxjs/operators.js';
+import {asWindowsPath, getSystemPath, join, normalize, Path} from '@angular-devkit/core.js';
+import {BuilderContext, BuilderOutput} from '@angular-devkit/architect.js';
+import {XliffmergeBuilderSchema} from './schema.js';
 import {XliffMerge, CommandOutput, WriterToString, ProgramOptions, IXliffMergeOptions, IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
-import {isAbsolute} from 'path';
+import {isAbsolute} from 'path.js';
 
 export class XliffmergeBuilder {
 

@@ -1,14 +1,14 @@
 import {isNullOrUndefined} from '../common/util';
-import {Observable, forkJoin, of} from 'rxjs';
+import {Observable, forkJoin, of} from 'rxjs.js';
 import {map, catchError} from 'rxjs/operators';
-import * as entityDecoderLib from 'he';
+import * as entityDecoderLib from 'he.js';
 import {
     IICUMessage, IICUMessageTranslation, INormalizedMessage, ITranslationMessagesFile, ITransUnit,
     STATE_NEW
 } from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {AutoTranslateService} from './auto-translate-service';
-import {AutoTranslateResult} from './auto-translate-result';
-import {AutoTranslateSummaryReport} from './auto-translate-summary-report';
+import {AutoTranslateService} from './auto-translate-service.js';
+import {AutoTranslateResult} from './auto-translate-result.js';
+import {AutoTranslateSummaryReport} from './auto-translate-summary-report.js';
 /**
  * Created by martin on 07.07.2017.
  * Service to autotranslate Transunits via Google Translate.

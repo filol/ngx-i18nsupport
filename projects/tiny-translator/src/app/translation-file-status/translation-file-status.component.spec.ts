@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import {TranslationFile} from '../model/translation-file';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
+import {TranslationFile} from '../model/translation-file.js';
 
 import { TranslationFileStatusComponent } from './translation-file-status.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 import {DownloaderService} from '../file-accessors/download-upload/downloader.service';
 
 describe('TranslationFileStatusComponent', () => {

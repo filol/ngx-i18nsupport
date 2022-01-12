@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { ProjectEditorComponent } from './project-editor.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
-import {FormBuilder} from '@angular/forms';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
+import {FormBuilder} from '@angular/forms.js';
 
 describe('ProjectEditorComponent', () => {
   let component: ProjectEditorComponent;

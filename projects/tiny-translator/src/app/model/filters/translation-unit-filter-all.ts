@@ -1,5 +1,5 @@
-import {ITranslationUnitFilter} from './i-translation-unit-filter';
-import {TranslationUnit} from '../translation-unit';
+import {ITranslationUnitFilter} from './i-translation-unit-filter.js';
+import {TranslationUnit} from '../translation-unit.js';
 /**
  * Filter that filters all units.
  * Created by martin on 27.05.2017.

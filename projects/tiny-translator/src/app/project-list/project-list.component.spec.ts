@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { ProjectListComponent } from './project-list.component';
 import {ProjectComponent} from '../project/project.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 
 describe('ProjectListComponent', () => {
   let component: ProjectListComponent;

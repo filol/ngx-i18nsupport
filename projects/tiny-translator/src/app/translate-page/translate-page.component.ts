@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {TranslationUnit} from '../model/translation-unit';
-import {TranslationProject, UserRole} from '../model/translation-project';
-import {TranslationFileView} from '../model/translation-file-view';
+import {TranslationUnit} from '../model/translation-unit.js';
+import {TranslationProject, UserRole} from '../model/translation-project.js';
+import {TranslationFileView} from '../model/translation-file-view.js';
 import {NavigationDirection, TranslateUnitChange} from '../translate-unit/translate-unit.component';
 
 @Component({

@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core.js';
 import {TinyTranslatorService} from '../model/tiny-translator.service';
-import {TranslationProject} from '../model/translation-project';
-import {TranslationFileView} from '../model/translation-file-view';
-import {TranslationUnit} from '../model/translation-unit';
-import {Router} from '@angular/router';
+import {TranslationProject} from '../model/translation-project.js';
+import {TranslationFileView} from '../model/translation-file-view.js';
+import {TranslationUnit} from '../model/translation-unit.js';
+import {Router} from '@angular/router.js';
 
 @Component({
   selector: 'app-filter-page',

@@ -1,4 +1,4 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing.js';
 
 import { TranslationUnitFilterService } from './translation-unit-filter.service';
 

@@ -1,6 +1,6 @@
-import {ITranslationUnitFilter} from './i-translation-unit-filter';
-import {TranslationUnit} from '../translation-unit';
-import {AutoTranslateSummaryReport} from '../auto-translate-summary-report';
+import {ITranslationUnitFilter} from './i-translation-unit-filter.js';
+import {TranslationUnit} from '../translation-unit.js';
+import {AutoTranslateSummaryReport} from '../auto-translate-summary-report.js';
 /**
  * Filter that filters all units that should be autotranslated by google, but are ignored.
  * This cannot be decided just by looking at the unit, but you must have a list of autotranslated units.

@@ -1,9 +1,9 @@
-import {Xliff2MessageParser} from './xliff2-message-parser';
-import {ParsedMessage} from './parsed-message';
-import {INormalizedMessage} from '../api/index';
-import {IMessageParser} from './i-message-parser';
-import {XliffMessageParser} from './xliff-message-parser';
-import {XmbMessageParser} from './xmb-message-parser';
+import {Xliff2MessageParser} from './xliff2-message-parser.js';
+import {ParsedMessage} from './parsed-message.js';
+import {INormalizedMessage} from '../api/index.js';
+import {IMessageParser} from './i-message-parser.js';
+import {XliffMessageParser} from './xliff-message-parser.js';
+import {XmbMessageParser} from './xmb-message-parser.js';
 /**
  * Created by martin on 17.05.2017.
  * Testcases for parsed messages.

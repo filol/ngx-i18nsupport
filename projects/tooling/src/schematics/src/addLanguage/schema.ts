@@ -1,7 +1,7 @@
 /**
  * Options that can be used with ng addLanguage.
  */
-import {CommonOptions} from '../common';
+import {CommonOptions} from '../common.js';
 
 export interface AddLanguageOptions extends CommonOptions {
     // only one of language or languages must be used

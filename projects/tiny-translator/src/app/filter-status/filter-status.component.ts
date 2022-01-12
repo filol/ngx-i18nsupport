@@ -1,6 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {TranslationFileView} from '../model/translation-file-view';
-import {TranslationUnitFilterSubstring} from '../model/filters/translation-unit-filter-substring';
+import {Component, Input, OnInit} from '@angular/core.js';
+import {TranslationFileView} from '../model/translation-file-view.js';
+import {TranslationUnitFilterSubstring} from '../model/filters/translation-unit-filter-substring.js';
 
 @Component({
   selector: 'app-filter-status',

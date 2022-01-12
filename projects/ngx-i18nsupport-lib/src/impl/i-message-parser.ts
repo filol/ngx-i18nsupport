@@ -1,4 +1,4 @@
-import {INormalizedMessage} from '../api/index';
+import {INormalizedMessage} from '../api/index.js';
 /**
  * Created by roobm on 16.05.2017.
  * Interface for message parser.

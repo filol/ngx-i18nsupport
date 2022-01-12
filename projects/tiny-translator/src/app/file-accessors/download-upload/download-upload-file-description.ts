@@ -1,7 +1,7 @@
 import {SerializationService} from '../../model/serialization.service';
-import {FileAccessorType} from '../common/file-accessor-type';
-import {IFileDescription} from '../common/i-file-description';
-import {IFileAccessConfiguration} from '../common/i-file-access-configuration';
+import {FileAccessorType} from '../common/file-accessor-type.js';
+import {IFileDescription} from '../common/i-file-description.js';
+import {IFileAccessConfiguration} from '../common/i-file-access-configuration.js';
 
 interface SerializedFormV1 {
     type: FileAccessorType.DOWNLOAD_UPLOAD;

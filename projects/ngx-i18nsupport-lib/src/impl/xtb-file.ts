@@ -1,12 +1,12 @@
-import {ITranslationMessagesFileFactory} from '../api/i-translation-messages-file-factory';
-import {ITranslationMessagesFile} from '../api/i-translation-messages-file';
-import {ITransUnit} from '../api/i-trans-unit';
+import {ITranslationMessagesFileFactory} from '../api/i-translation-messages-file-factory.js';
+import {ITranslationMessagesFile} from '../api/i-translation-messages-file.js';
+import {ITransUnit} from '../api/i-trans-unit.js';
 import {FORMAT_XTB, FILETYPE_XTB, FORMAT_XMB} from '../api/constants';
 import {format} from 'util';
-import {DOMUtilities} from './dom-utilities';
-import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file';
-import {XtbTransUnit} from './xtb-trans-unit';
-import {AbstractTransUnit} from './abstract-trans-unit';
+import {DOMUtilities} from './dom-utilities.js';
+import {AbstractTranslationMessagesFile} from './abstract-translation-messages-file.js';
+import {XtbTransUnit} from './xtb-trans-unit.js';
+import {AbstractTransUnit} from './abstract-trans-unit.js';
 /**
  * Created by martin on 23.05.2017.
  * xtb-File access.

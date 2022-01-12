@@ -1,7 +1,7 @@
 /**
  * Options that can be used with ng add @ngx-i18nsupport.
  */
-import {CommonOptions} from '../common';
+import {CommonOptions} from '../common.js';
 
 export interface NgAddOptions extends CommonOptions {
     localePath?: string;

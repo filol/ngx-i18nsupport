@@ -1,7 +1,7 @@
-import {XliffMerge} from './xliff-merge';
-import {ProgramOptions, IConfigFile} from './i-xliff-merge-options';
-import {CommandOutput} from '../common/command-output';
-import {WriterToString} from '../common/writer-to-string';
+import {XliffMerge} from './xliff-merge.js';
+import {ProgramOptions, IConfigFile} from './i-xliff-merge-options.js';
+import {CommandOutput} from '../common/command-output.js';
+import {WriterToString} from '../common/writer-to-string.js';
 
 /**
  * Created by martin on 18.02.2017.

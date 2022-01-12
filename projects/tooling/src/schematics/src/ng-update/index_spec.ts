@@ -1,7 +1,7 @@
-import {SchematicTestRunner, UnitTestTree} from '@angular-devkit/schematics/testing';
-import {HostTree} from '@angular-devkit/schematics';
-import {virtualFs} from '@angular-devkit/core';
-import {NgUpdateOptions} from './schema';
+import {SchematicTestRunner, UnitTestTree} from '@angular-devkit/schematics/testing.js';
+import {HostTree} from '@angular-devkit/schematics.js';
+import {virtualFs} from '@angular-devkit/core.js';
+import {NgUpdateOptions} from './schema.js';
 import {
     BrowserBuilderOptions,
     Builders,
@@ -9,9 +9,9 @@ import {
     WorkspaceProject,
     WorkspaceSchema
 } from '../../schematics-core/utility/workspace-models';
-import {IConfigFile, IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport';
-import {readAngularJson, readPackageJson} from '../common/common-testing_spec';
-import {extractScriptName, IPackageJson, xliffmergeBuilderName, xliffmergePackage, xliffmergeVersion} from '../common';
+import {IConfigFile, IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport.js';
+import {readAngularJson, readPackageJson} from '../common/common-testing_spec.js';
+import {extractScriptName, IPackageJson, xliffmergeBuilderName, xliffmergePackage, xliffmergeVersion} from '../common.js';
 
 interface ProjectOptions {
     name: string;

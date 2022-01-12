@@ -2,7 +2,7 @@ import {format} from 'util';
 import * as request from 'request';
 import {Observable} from 'rxjs';
 import {of, forkJoin, throwError} from 'rxjs';
-import {map} from 'rxjs/operators';
+import {map} from 'rxjs/operators.js';
 
 /**
  * Created by roobm on 03.07.2017.

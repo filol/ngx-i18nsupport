@@ -1,5 +1,5 @@
-import {InjectionToken} from '@angular/core';
-import {environment} from '../environments/environment';
+import {InjectionToken} from '@angular/core.js';
+import {environment} from '../environments/environment.js';
 /**
  * Created by martin on 23.03.2017.
  * Configuration Data of the application.

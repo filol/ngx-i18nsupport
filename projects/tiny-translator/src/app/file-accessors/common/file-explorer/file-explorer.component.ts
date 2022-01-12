@@ -1,14 +1,14 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FlatTreeControl} from '@angular/cdk/tree';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {FlatTreeControl} from '@angular/cdk/tree.js';
 import {IFileDescription} from '../i-file-description';
-import {BehaviorSubject, EMPTY, merge, Observable, of} from 'rxjs';
-import {CollectionViewer, SelectionChange} from '@angular/cdk/collections';
-import {expand, last, map, } from 'rxjs/operators';
-import {IFileAccessService} from '../i-file-access-service';
+import {BehaviorSubject, EMPTY, merge, Observable, of} from 'rxjs.js';
+import {CollectionViewer, SelectionChange} from '@angular/cdk/collections.js';
+import {expand, last, map, } from 'rxjs/operators.js';
+import {IFileAccessService} from '../i-file-access-service.js';
 import {FileAccessServiceFactoryService} from '../file-access-service-factory.service';
-import {isNullOrUndefined} from '../../../common/util';
-import {IFileAccessConfiguration} from '../i-file-access-configuration';
-import {FormBuilder, FormGroup} from '@angular/forms';
+import {isNullOrUndefined} from '../../../common/util.js';
+import {IFileAccessConfiguration} from '../i-file-access-configuration.js';
+import {FormBuilder, FormGroup} from '@angular/forms.js';
 
 /** Flat node with expandable and level information */
 class DynamicFlatNode {

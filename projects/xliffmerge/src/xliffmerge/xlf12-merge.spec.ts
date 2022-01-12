@@ -1,14 +1,14 @@
 import * as fs from 'fs';
-import {XliffMerge} from './xliff-merge';
-import {IConfigFile} from './i-xliff-merge-options';
-import {CommandOutput} from '../common/command-output';
-import {WriterToString} from '../common/writer-to-string';
-import {FileUtil} from '../common/file-util';
+import {XliffMerge} from './xliff-merge.js';
+import {IConfigFile} from './i-xliff-merge-options.js';
+import {CommandOutput} from '../common/command-output.js';
+import {WriterToString} from '../common/writer-to-string.js';
+import {FileUtil} from '../common/file-util.js';
 import {ITranslationMessagesFile, ITransUnit, STATE_FINAL, STATE_NEW, STATE_TRANSLATED} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
 import {TranslationMessagesFileReader} from './translation-messages-file-reader';
 import {format} from 'util';
 import {getApiKey} from '../autotranslate/auto-translate-service.spec';
-import {XmlReader} from './xml-reader';
+import {XmlReader} from './xml-reader.js';
 
 /**
  * Created by martin on 18.02.2017.

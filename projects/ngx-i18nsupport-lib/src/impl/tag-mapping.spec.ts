@@ -1,4 +1,4 @@
-import {TagMapping} from './tag-mapping';
+import {TagMapping} from './tag-mapping.js';
 /**
  * Created by roobm on 02.06.2017.
  * Testcases for Mapping from normalized tag names to placeholder names.

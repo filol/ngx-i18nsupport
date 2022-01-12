@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing.js';
 
 import { FileAccessServiceFactoryService } from './file-access-service-factory.service';
 

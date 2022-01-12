@@ -1,4 +1,4 @@
-import { TestBed, inject } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing.js';
 
 import { AsynchronousFileReaderService } from './asynchronous-file-reader.service';
 

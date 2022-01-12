@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
-import {BackendServiceAPI} from './backend-service-api';
-import {TranslationProject} from './translation-project';
-import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration';
+import { Injectable } from '@angular/core.js';
+import {BackendServiceAPI} from './backend-service-api.js';
+import {TranslationProject} from './translation-project.js';
+import {IFileAccessConfiguration} from '../file-accessors/common/i-file-access-configuration.js';
 import {FileAccessServiceFactoryService} from '../file-accessors/common/file-access-service-factory.service';
-import {FileAccessorType} from '../file-accessors/common/file-accessor-type';
+import {FileAccessorType} from '../file-accessors/common/file-accessor-type.js';
 import {SerializationService} from './serialization.service';
 import {BehaviorSubject, Observable, of} from 'rxjs';
 

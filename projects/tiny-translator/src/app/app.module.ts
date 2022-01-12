@@ -1,9 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
-import {ServiceWorkerModule} from '@angular/service-worker';
-import {environment} from '../environments/environment';
+import { BrowserModule } from '@angular/platform-browser.js';
+import { NgModule } from '@angular/core.js';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms.js';
+import {HttpClientModule} from '@angular/common/http.js';
+import {ServiceWorkerModule} from '@angular/service-worker.js';
+import {environment} from '../environments/environment.js';
 
 import {APP_CONFIG, APP_CONFIG_VALUE} from './app.config';
 import {routing, appRoutingProviders} from './app.routing';
@@ -22,13 +22,13 @@ import { TranslateUnitListComponent } from './translate-unit-list/translate-unit
 import { AbbreviatePipe } from './common/abbreviate.pipe';
 import { LanguageComponent } from './language/language.component';
 import {ActiveProjectGuard} from './active-project.guard';
-import {BackendServiceAPI} from './model/backend-service-api';
+import {BackendServiceAPI} from './model/backend-service-api.js';
 import {BackendLocalStorageService} from './model/backend-local-storage.service';
-import {AutoTranslateServiceAPI} from './model/auto-translate-service-api';
+import {AutoTranslateServiceAPI} from './model/auto-translate-service-api.js';
 import {AutoTranslateGoogleService} from './model/auto-translate-google.service';
 import { ProjectComponent } from './project/project.component';
 import { ProjectListComponent } from './project-list/project-list.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations.js';
 import { CreateProjectPageComponent } from './create-project-page/create-project-page.component';
 import { ProjectStatusComponent } from './project-status/project-status.component';
 import {AsynchronousFileReaderService} from './file-accessors/download-upload/asynchronous-file-reader.service';

@@ -1,7 +1,7 @@
-import {experimental, getSystemPath, join, normalize, Path, schema} from '@angular-devkit/core';
-import {TestingArchitectHost, TestProjectHost} from '@angular-devkit/architect/testing';
-import {WorkspaceNodeModulesArchitectHost} from '@angular-devkit/architect/node';
-import {Architect} from '@angular-devkit/architect';
+import {experimental, getSystemPath, join, normalize, Path, schema} from '@angular-devkit/core.js';
+import {TestingArchitectHost, TestProjectHost} from '@angular-devkit/architect/testing.js';
+import {WorkspaceNodeModulesArchitectHost} from '@angular-devkit/architect/node.js';
+import {Architect} from '@angular-devkit/architect.js';
 
 /**
  * We are using a test workspace from the test folder.

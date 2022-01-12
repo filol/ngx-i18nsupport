@@ -1,10 +1,10 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FormBuilder, FormGroup} from '@angular/forms';
-import {TranslationProject} from '../../../model/translation-project';
-import {FILETYPE_XTB} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
-import {IFileDescription} from '../../common/i-file-description';
-import {DownloadUploadFileDescription} from '../download-upload-file-description';
-import {DownloadUploadConfiguration} from '../download-upload-configuration';
+import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core.js';
+import {FormBuilder, FormGroup} from '@angular/forms.js';
+import {TranslationProject} from '../../../model/translation-project.js';
+import {FILETYPE_XTB} from '@ngx-i18nsupport/ngx-i18nsupport-lib.js';
+import {IFileDescription} from '../../common/i-file-description.js';
+import {DownloadUploadFileDescription} from '../download-upload-file-description.js';
+import {DownloadUploadConfiguration} from '../download-upload-configuration.js';
 
 @Component({
   selector: 'app-translation-file-upload',

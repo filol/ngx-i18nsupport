@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing.js';
 
 import { TranslateUnitWarningConfirmDialogComponent } from './translate-unit-warning-confirm-dialog.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
-import { MAT_DIALOG_DATA, MatDialog, MatDialogContainer, MatDialogModule, MatDialogRef } from "@angular/material/dialog";
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
+import { MAT_DIALOG_DATA, MatDialog, MatDialogContainer, MatDialogModule, MatDialogRef } from "@angular/material/dialog.js";
 import {AppModule} from '../app.module';
 
 class MatDialogRefMock {

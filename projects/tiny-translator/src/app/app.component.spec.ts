@@ -1,7 +1,7 @@
-import { TestBed, async } from '@angular/core/testing';
+import { TestBed, async } from '@angular/core/testing.js';
 
 import { AppComponent } from './app.component';
-import {NO_ERRORS_SCHEMA} from '@angular/core';
+import {NO_ERRORS_SCHEMA} from '@angular/core.js';
 import {APP_CONFIG, APP_CONFIG_VALUE} from './app.config';
 import {AppModule} from './app.module';
 

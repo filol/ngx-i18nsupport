@@ -1,5 +1,5 @@
-import {ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot} from '@angular/router';
-import {Injectable} from '@angular/core';
+import {ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot} from '@angular/router.js';
+import {Injectable} from '@angular/core.js';
 import {TinyTranslatorService} from './model/tiny-translator.service';
 import {Observable} from 'rxjs';
 

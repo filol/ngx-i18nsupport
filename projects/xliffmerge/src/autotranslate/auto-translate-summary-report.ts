@@ -1,6 +1,6 @@
 import {AutoTranslateResult} from './auto-translate-result';
 import {format} from 'util';
-import {ITransUnit} from '@ngx-i18nsupport/ngx-i18nsupport-lib';
+import {ITransUnit} from '@ngx-i18nsupport/ngx-i18nsupport-lib.js';
 
 /**
  * A report about a run of Google Translate over all untranslated unit.

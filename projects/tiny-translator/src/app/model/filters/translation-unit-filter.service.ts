@@ -1,12 +1,12 @@
-import { Injectable } from '@angular/core';
-import {ITranslationUnitFilter} from './i-translation-unit-filter';
-import {TranslationUnitFilterAll} from './translation-unit-filter-all';
-import {TranslationUnitFilterAutoTranslated} from './translation-unit-filter-autotranslated';
-import {AutoTranslateSummaryReport} from '../auto-translate-summary-report';
-import {TranslationUnitFilterAutoTranslatedFailed} from './translation-unit-filter-autotranslated-failed';
-import {TranslationUnitFilterAutoTranslatedIgnored} from './translation-unit-filter-autotranslated-ignored';
-import {TranslationUnitFilterNeedsReview} from './translation-unit-filter-needs-review';
-import {TranslationUnitFilterSubstring} from './translation-unit-filter-substring';
+import { Injectable } from '@angular/core.js';
+import {ITranslationUnitFilter} from './i-translation-unit-filter.js';
+import {TranslationUnitFilterAll} from './translation-unit-filter-all.js';
+import {TranslationUnitFilterAutoTranslated} from './translation-unit-filter-autotranslated.js';
+import {AutoTranslateSummaryReport} from '../auto-translate-summary-report.js';
+import {TranslationUnitFilterAutoTranslatedFailed} from './translation-unit-filter-autotranslated-failed.js';
+import {TranslationUnitFilterAutoTranslatedIgnored} from './translation-unit-filter-autotranslated-ignored.js';
+import {TranslationUnitFilterNeedsReview} from './translation-unit-filter-needs-review.js';
+import {TranslationUnitFilterSubstring} from './translation-unit-filter-substring.js';
 import {TranslationUnitFilterUntranslated} from './translation-unit-filter-untranslated';
 
 export const FILTER_ALL = 'all';
@@ -15,7 +15,7 @@ export const FILTER_AUTOTRANSLATED_FAILED = 'autotranslatedFailed';
 export const FILTER_AUTOTRANSLATED_IGNORED = 'autotranslatedIgnored';
 export const FILTER_NEEDS_REVIEW = 'needsReview';
 export const FILTER_SUBSTRING = 'bySubstring';
-export const FILTER_UNTRANSLATED = 'untranslated';
+export const FILTER_UNTRANSLATED = 'untranslated.js';
 
 @Injectable()
 export class TranslationUnitFilterService {

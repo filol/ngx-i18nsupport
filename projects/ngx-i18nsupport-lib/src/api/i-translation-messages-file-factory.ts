@@ -1,4 +1,4 @@
-import {ITranslationMessagesFile} from './i-translation-messages-file';
+import {ITranslationMessagesFile} from './i-translation-messages-file.js';
 
 export interface ITranslationMessagesFileFactory {
     /**

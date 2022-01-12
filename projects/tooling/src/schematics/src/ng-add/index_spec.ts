@@ -1,14 +1,14 @@
-import { Tree} from '@angular-devkit/schematics';
-import {Schema as ApplicationOptions} from '@schematics/angular/application/schema';
-import {Schema as LibraryOptions} from '@schematics/angular/application/schema';
-import { SchematicTestRunner, UnitTestTree } from '@angular-devkit/schematics/testing';
+import { Tree} from '@angular-devkit/schematics.js';
+import {Schema as ApplicationOptions} from '@schematics/angular/application/schema.js';
+import {Schema as LibraryOptions} from '@schematics/angular/application/schema.js';
+import { SchematicTestRunner, UnitTestTree } from '@angular-devkit/schematics/testing.js';
 import {IXliffMergeOptions} from '@ngx-i18nsupport/ngx-i18nsupport';
-import * as pathUtils from 'path';
-import {extractScriptName, xliffmergeBuilderName, xliffmergePackage, xliffmergeVersion} from '../common';
-import {NgAddOptions} from './schema';
-import {readAngularJson, readAsJson, readPackageJson, workspaceOptions, appOptions, libOptions} from '../common/common-testing_spec';
-import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models';
-import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport';
+import * as pathUtils from 'path.js';
+import {extractScriptName, xliffmergeBuilderName, xliffmergePackage, xliffmergeVersion} from '../common.js';
+import {NgAddOptions} from './schema.js';
+import {readAngularJson, readAsJson, readPackageJson, workspaceOptions, appOptions, libOptions} from '../common/common-testing_spec.js';
+import {WorkspaceSchema} from '../../schematics-core/utility/workspace-models.js';
+import {IConfigFile} from '@ngx-i18nsupport/ngx-i18nsupport.js';
 
 const collectionPath = pathUtils.join(__dirname, '../collection.json');
 

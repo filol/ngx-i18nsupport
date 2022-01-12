@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core.js';
 
 /**
  * A component that shows a language.
