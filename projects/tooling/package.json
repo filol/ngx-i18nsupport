@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/martinroob/ngx-i18nsupport#readme",
   "dependencies": {
-    "@ngx-i18nsupport/ngx-i18nsupport": "^1.1.6"
+    "@ngx-i18nsupport/ngx-i18nsupport": "/Users/fdexemple/Documents/ngx-i18nsupport/dist/ngx-i18nsupport"
   },
   "peerDependencies": {
     "@angular/common": "^13.1.1",

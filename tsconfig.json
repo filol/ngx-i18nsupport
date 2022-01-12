@@ -1,33 +1,39 @@
 {
-  "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "es2020",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
+    "baseUrl": ".",
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "removeComments": true,
+    "declaration": true,
+    "target": "ES2021",
+    "resolveJsonModule": true,
     "lib": [
-      "es2017",
-      "dom",
-      "ES2020"
+      "DOM"
     ],
-    "paths": {
-      "@ngx-i18nsupport/ngx-i18nsupport": [
-        "dist/ngx-i18nsupport"
-      ],
-      "@ngx-i18nsupport/tooling": [
-        "dist/tooling"
-      ],
-      "@ngx-i18nsupport/ngx-i18nsupport-lib": [
-        "dist/ngx-i18nsupport-lib"
-      ]
-    }
+    "module": "es2022",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "sourceMap": true,
+    "typeRoots" : [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [],
+  "paths": {
+    "@ngx-i18nsupport/ngx-i18nsupport": [
+      "dist/ngx-i18nsupport"
+    ],
+    "@ngx-i18nsupport/tooling": [
+      "dist/tooling"
+    ],
+    "@ngx-i18nsupport/ngx-i18nsupport-lib": [
+      "dist/ngx-i18nsupport-lib"
+    ]
   }
 }

@@ -7,6 +7,9 @@
   "bin": {
     "xliffmerge": "xliffmerge/xliffmerge.js"
   },
+  "exports": {
+    "./src/xliffmerge/xliff-merge": "./src/xliffmerge/main.js"
+  },
   "engines": {
     "node": ">=10.0"
   },
@@ -41,7 +44,7 @@
   },
   "homepage": "https://github.com/martinroob/ngx-i18nsupport#readme",
   "dependencies": {
-    "@ngx-i18nsupport/ngx-i18nsupport-lib": "^1.12.1",
+    "@ngx-i18nsupport/ngx-i18nsupport-lib": "/Users/fdexemple/Documents/ngx-i18nsupport/dist/ngx-i18nsupport-lib",
     "chalk": "^2.4.1",
     "he": "^1.1.1",
     "request": "^2.88.2"

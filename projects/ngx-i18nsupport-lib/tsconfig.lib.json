@@ -2,9 +2,6 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "../../out-tsc/lib",
-    "target": "es2015",
-    "module": "es2020",
-    "moduleResolution": "node",
     "declaration": true,
     "sourceMap": true,
     "inlineSources": true,
@@ -14,11 +11,6 @@
     "types": [
       "node"
     ],
-    "lib": [
-      "dom",
-      "es2015",
-      "ES2020"
-    ]
   },
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
